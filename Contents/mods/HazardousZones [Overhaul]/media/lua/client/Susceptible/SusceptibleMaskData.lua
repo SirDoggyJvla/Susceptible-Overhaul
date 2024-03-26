@@ -51,8 +51,10 @@ SusceptibleMaskItems = {
 	SEVAHelmMonolith =                                    { durability=600, repairType=OXYGEN },
 	SEVAHelmMonolithGreen =                               { durability=600, repairType=OXYGEN },
 	PowerArmorHelmet =                           	      { durability=600, repairType=OXYGEN },
+
+	-- from SirDoggyJvla: Brita's Antibelok Hazmats
 	Antibelok =                            	    		  { durability=600, repairType=OXYGEN },
-	Antibelok_ON =                            	    		  { durability=600, repairType=OXYGEN },
+	Antibelok_ON =                            	    	  { durability=600, repairType=OXYGEN },
 
 
 --- Gas masks ---
