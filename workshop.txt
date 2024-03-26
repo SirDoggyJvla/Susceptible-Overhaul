@@ -1,0 +1,6 @@
+version=1
+id=3196616278
+title=WarHead's Hazardous Zones - Overhaul
+description=[h1]What does this mod ?[/h1]
+tags=Build 41;Balance;Clothing/Armor;Hardmode;Interface;Items;Misc;Realistic
+visibility=public

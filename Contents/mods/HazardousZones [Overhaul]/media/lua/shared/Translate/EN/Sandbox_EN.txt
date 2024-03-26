@@ -1,0 +1,13 @@
+Sandbox_EN = {
+    Sandbox_HazardousZones_DrainageFilter = "[Overhaul] Damage to filter protections",
+    Sandbox_HazardousZones_DrainageFilter_tooltip = "Will hazardous zones consume the filter of a protection when in it."
+	
+	Sandbox_HazardousZones_TimetoDrainFilter = "[Overhaul] Time to destroy a filter [in hours]",
+    Sandbox_HazardousZones_TimetoDrainFilter_tooltip = "Time it will take for the hazardous zones to fully drain a filter."
+	
+	Sandbox_HazardousZones_DrainageOxyTank = "[Overhaul] Consumption to oxygen tank's of a protection",
+    Sandbox_HazardousZones_DrainageOxyTank_tooltip = "Will hazardous zones consume the oxygen tanks of a protection when in it."
+	
+	Sandbox_HazardousZones_TimetoDrainOxyTank = "[Overhaul] Time to consume an oxygen tank [in hours]",
+    Sandbox_HazardousZones_TimetoDrainOxyTank_tooltip = "Time it will take for the hazardous zones to fully drain an oxygen tank."
+}
