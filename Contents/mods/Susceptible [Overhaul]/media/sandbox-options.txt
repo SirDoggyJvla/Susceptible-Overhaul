@@ -1,0 +1,8 @@
+VERSION = 1,
+
+option Susceptible.FailIfHoles
+{
+	type = boolean, default = true,
+	page = Susceptible,
+	translation = Susceptible_FailIfHoles,
+}

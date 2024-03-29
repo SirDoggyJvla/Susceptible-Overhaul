@@ -1,0 +1,4 @@
+Sandbox_EN = {
+	Sandbox_Susceptible = "Susceptible",
+	Sandbox_Susceptible_FailIfHoles = "Hazmat fails if holes",
+}

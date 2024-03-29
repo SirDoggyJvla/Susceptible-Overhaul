@@ -1,0 +1,11 @@
+name=Susceptible - Overhaul - Remove Susceptible trait
+poster=poster.png
+icon=icon.png
+tags=Susceptible, Patch, Overhaul, Compatibility
+id=Susceptible_Overhaul_NoSusceptibleTrait
+authors=SirDoggyJvla
+description=Removes the Susceptible trait from being able to be picked by the player.
+url=https://ko-fi.com/sirdoggyjvla
+modVersion=1.0.0
+versionMin=41.0
+require=Susceptible,Susceptible_Overhaul

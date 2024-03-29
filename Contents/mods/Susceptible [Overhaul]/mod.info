@@ -1,0 +1,11 @@
+name=Susceptible - Overhaul
+poster=poster.png
+icon=icon.png
+tags=Susceptible, Patch, Overhaul, Compatibility
+id=Susceptible_Overhaul
+authors=SirDoggyJvla
+description=This mod adds the gasmask and hazmat list from Susceptible and adds tools to use for my Overhaul mods.
+url=https://ko-fi.com/sirdoggyjvla
+modVersion=1.0.0
+versionMin=41.0
+require=Susceptible
