@@ -315,7 +315,6 @@ SusceptibleMaskItems = {
 	["StalkerArmorPack.FaceMask"]  =                      { durability=400, repairType=FILTER }, 	
 	Hat_BandanaMaskTINT =                                 { durability=26, repairType=WASH, quality=1 },
 	["Susceptible.ClothMask"] =                           { durability=26, repairType=WASH, quality=1 },
-	Balaclava_Mask_4 =                                    { durability=26, repairType=WASH },	
 	-- from SirDoggyJvla: KATTAJ1 Military Pack
 	["Military_Mask_Balaclava1-Black"] =                  { durability=26, repairType=WASH },	
 	["Military_Mask_Balaclava1-Desert"] =                 { durability=26, repairType=WASH },	
@@ -334,14 +333,14 @@ SusceptibleMaskItems = {
 	Hat_GasMask_Improvised =                              { durability=24 },
 	HCImprovisedgasmask =                                 { durability=24 },
 	HCImprovisedhazmat =                                  { durability=24 },
-    
+
 --- Novelty masks & hats ---    
 	Hat_Spiffo =                                       	  { durability=5 },
 	Hat_TrueEyeCult =                                     { durability=5 },
 	Hat_GhostFace =                                       { durability=5 },
 	Hat_DRLegoHead =                                      { durability=5 },
 	Hat_DeathMask =                                       { durability=5 },
-    
+
 }
 
 function SusceptibleMaskItems.getMaskData(self, item)

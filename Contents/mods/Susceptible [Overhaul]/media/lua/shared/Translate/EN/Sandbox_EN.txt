@@ -1,4 +1,12 @@
 Sandbox_EN = {
-	Sandbox_Susceptible = "Susceptible",
+	Sandbox_SusceptibleOverhaul = "Susceptible - Overhaul",
+
 	Sandbox_Susceptible_FailIfHoles = "Hazmat fails if holes",
+	Sandbox_Susceptible_FailIfHoles_tooltip = "Hazmat types of protections will not protect if there are holes in it.",
+
+	Sandbox_Susceptible_RealisticMode = "Realistic Mode",
+	Sandbox_Susceptible_RealisticMode_tooltip = "Protections will be drained even when out of danger.",
+
+	Sandbox_Susceptible_TimeForNaturalDrain = "Time for protection natural drain",
+	Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "Protections will be drained based on this factor. Exhaustion exponentially increases the durability consumption, meaning removing a gas mask, or it's filter at a minimum, when exhausted might be important. 0.25 means fully depleted after 9 days when not exhausted and after half a day of being fully exhausted. 0.08 means fully depleted after 270 days or 14 days exhausted. 0.55 is depleted after 20 hours or 1 hour of being exhausted.",
 }

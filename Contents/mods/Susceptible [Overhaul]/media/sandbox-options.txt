@@ -3,6 +3,21 @@ VERSION = 1,
 option Susceptible.FailIfHoles
 {
 	type = boolean, default = true,
-	page = Susceptible,
+	page = SusceptibleOverhaul,
 	translation = Susceptible_FailIfHoles,
+}
+
+option Susceptible.RealisticMode
+{
+	type = boolean, default = true,
+	page = SusceptibleOverhaul,
+	translation = Susceptible_RealisticMode,
+}
+
+option Susceptible.TimeForNaturalDrain
+{
+    type = double,
+    min = 0.08, default = 0.25, max = 0.55,
+    page = SusceptibleOverhaul,
+    translation = Susceptible_TimeForNaturalDrain,
 }
