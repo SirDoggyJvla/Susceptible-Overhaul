@@ -96,6 +96,8 @@ Susceptible_Overhaul.DamageProtection = function()
     local modData = player:getModData()
     if not modData["Susceptible_Overhaul"] then
         modData["Susceptible_Overhaul"] = {}
+    end
+    if not modData["Susceptible_Overhaul"].DamageProtection then
         modData["Susceptible_Overhaul"].DamageProtection = {}
     end
 
