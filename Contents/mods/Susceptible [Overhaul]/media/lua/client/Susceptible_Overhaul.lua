@@ -23,6 +23,11 @@ local tostring = tostring --tostring function
 --- Import modules
 local Susceptible_Overhaul = require "Susceptible_Overhaul_module"
 local SusUtil = require "Susceptible/SusceptibleUtil"
+require "Susceptible/SusceptibleMaskData_additions"
+
+-- localy import data
+local SusceptibleMaskItems = SusceptibleMaskItems
+local SusceptibleRepairTypes = SusceptibleRepairTypes
 
 --- Checks if player has a gas mask and outputs the result. 
 ---
@@ -75,14 +80,10 @@ Susceptible_Overhaul.isWearingHazmat = function(player)
 end
 
 --- Damages the player protection if he's in a situation that should drain the protection.
----
----@param drain_oxygen boolean
----@param drain_filter boolean
----@param oxygenTank_drainage double
----@param filter_drainage double
-Susceptible_Overhaul.damageMask = function(drain_oxygen,drain_filter,oxygenTank_drainage,filter_drainage)
+Susceptible_Overhaul.DamageProtection = function()
+    local player = getPlayer()
     -- retrieve mask item type and info
-    local item, mask = SusceptibleMod.getEquippedMaskItemAndData(getPlayer())
+    local item, mask = SusceptibleMod.getEquippedMaskItemAndData(player)
     if not mask then return end
 
     -- get item data, notably durabilityMax
@@ -91,18 +92,32 @@ Susceptible_Overhaul.damageMask = function(drain_oxygen,drain_filter,oxygenTank_
     -- maskDamageRate / time to drain = durability loss per minute (bcs function everyMinute)
     local maskDamageRate = data.durabilityMax / 60;
 
-    -- calculate durability loss depending on mask type, priotizing oxygen tanks
-    if mask.repairType == SusceptibleRepairTypes.OXYGEN and drain_oxygen then
-        local condition = item:getCondition() / item:getConditionMax() + 0.1
-        condition = condition * condition
-        if condition > 1 then
-            condition = 1;
-        end
+    -- check mod data
+    local modData = player:getModData()
+    if not modData["Susceptible_Overhaul"] then
+        modData["Susceptible_Overhaul"] = {}
+        modData["Susceptible_Overhaul"].DamageProtection = {}
+    end
 
-        local conditionMult = 1.0 / condition; -- You're leaking :)
-        SusceptibleMod.damageMask(item, mask, conditionMult * maskDamageRate / oxygenTank_drainage ) -- Constant drain rate for oxygen based protection
-    elseif mask.repairType == SusceptibleRepairTypes.FILTER and drain_filter then
-        local damage = maskDamageRate / filter_drainage
-        SusceptibleMod.damageMask(item, mask, damage)
+    for k,v in pairs(modData["Susceptible_Overhaul"].DamageProtection) do
+        local drain_oxygen = v.drain_oxygen
+        local drain_filter = v.drain_filter
+        local oxygenTank_drainage = v.oxygenTank_drainage
+        local filter_drainage = v.filter_drainage
+
+        -- calculate durability loss depending on mask type, priotizing oxygen tanks
+        if mask.repairType == SusceptibleRepairTypes.OXYGEN and drain_oxygen then
+            local condition = item:getCondition() / item:getConditionMax() + 0.1
+            condition = condition * condition
+            if condition > 1 then
+                condition = 1;
+            end
+
+            local conditionMult = 1.0 / condition; -- You're leaking :)
+            SusceptibleMod.damageMask(item, mask, conditionMult * maskDamageRate / oxygenTank_drainage ) -- Constant drain rate for oxygen based protection
+        elseif mask.repairType == SusceptibleRepairTypes.FILTER and drain_filter then
+            local damage = maskDamageRate / filter_drainage
+            SusceptibleMod.damageMask(item, mask, damage)
+        end
     end
 end

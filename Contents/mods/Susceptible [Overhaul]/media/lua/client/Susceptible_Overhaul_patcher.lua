@@ -1,4 +1,3 @@
-
 --[[ ================================================ ]]--
 --[[  /~~\'      |~~\                  ~~|~    |      ]]--
 --[[  '--.||/~\  |   |/~\/~~|/~~|\  /    | \  /|/~~|  ]]--
@@ -14,6 +13,11 @@ This file defines the patches to functions of Susceptible by the mod Susceptible
 
 --- Import modules
 local SusUtil = require "Susceptible/SusceptibleUtil"
+require "Susceptible/SusceptibleMaskData_additions"
+
+-- localy import data
+local SusceptibleMaskItems = SusceptibleMaskItems
+local SusceptibleRepairTypes = SusceptibleRepairTypes
 
 --- Modify `SusceptibleMod.onPlayerUpdate` with my own.
 --- Add UI to player even if not Susceptible.
@@ -75,6 +79,7 @@ function SusceptibleMod.updateMaskInfoDisplay(player, threatLevel)
     if not modData["Susceptible_Overhaul"] then
         modData["Susceptible_Overhaul"] = {}
         modData["Susceptible_Overhaul"].InDanger = {}
+        modData["Susceptible_Overhaul"].DamageProtection = {}
     end
 
     -- verify player is not in danger, else set threatLevel to 2 to trigger
@@ -142,7 +147,7 @@ local function OnGameStart()
         DebugLog.log("Susceptible_Overhaul: Overwriting SusceptibleUtil.onPlayerGasMaskDrain")
 
         function SusceptibleMod.onPlayerGasMaskDrain(player)
-            if not player or not SusceptibleMod.isPlayerSusceptible(player) then
+            if not player then
                 return;
             end
 
