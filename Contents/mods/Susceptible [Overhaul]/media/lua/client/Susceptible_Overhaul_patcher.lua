@@ -78,14 +78,15 @@ function SusceptibleMod.updateMaskInfoDisplay(player, threatLevel)
     local modData = player:getModData()
     if not modData["Susceptible_Overhaul"] then
         modData["Susceptible_Overhaul"] = {}
+    end
+    if not modData["Susceptible_Overhaul"].InDanger then
         modData["Susceptible_Overhaul"].InDanger = {}
-        modData["Susceptible_Overhaul"].DamageProtection = {}
     end
 
     -- verify player is not in danger, else set threatLevel to 2 to trigger
     -- the toxic interface from Susceptible
     local check = nil
-    for k in pairs(modData["Susceptible_Overhaul"].InDanger) do
+    for _ in pairs(modData["Susceptible_Overhaul"].InDanger) do
         check = true
         break
     end

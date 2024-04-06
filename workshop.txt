@@ -6,9 +6,11 @@ description=The goal of this mod is to update [url=https://steamcommunity.com/sh
 description=
 description=[h3]Features:[/h3]
 description=[olist]
-description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as respirators from STALKER armor pack or gasmasks from Undead Survivor)
+description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as zRe ARMOR PACK or KATTAJ1 Military Pack)
 description=
 description=[*][b]Permanent UI of Susceptible[/b] even without the trait. (won't show you're in danger from zombies if you don't have the trait)
+description=
+description=[*]New [b]Realistic Mode[/b] to have the protections be consumed even when not filtering hazardous materials ! Being exhausted will also [url=https://raw.githubusercontent.com/SirDoggyJvla/Susceptible---Overhaul/main/images/Realistic_mode.png]increase this consumption[/url] !
 description=
 description=[*]Ability to [b]remove the Susceptible trait[/b] from character creation with a secondary mod ! 
 description=
@@ -57,7 +59,10 @@ description=[h3]Added by my mod[/h3]
 description=Those are mods now compatible with Susceptible and thus Hazardous Zones:
 description=[list]
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3079948242]KATTAJ1 Military Pack[/url]
-description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Antibelok)
+description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Added Antibelok)
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3038026478]zRe ARMOR PACK[/url]
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3210604443]CRM Armor[/url]
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url] (Buffed the gasmasks and fix Nomad Masks needing filters)
 description=[/list]
 description=
 description=[h1]Suggestions[/h1]
@@ -78,6 +83,5 @@ description=
 description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
 description=
 description=[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
-description=
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public

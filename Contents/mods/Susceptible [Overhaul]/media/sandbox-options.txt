@@ -17,7 +17,7 @@ option Susceptible.RealisticMode
 option Susceptible.TimeForNaturalDrain
 {
     type = double,
-    min = 0.08, default = 0.25, max = 0.55,
+    min = 0.08, default = 0.25, max = 0.88,
     page = SusceptibleOverhaul,
     translation = Susceptible_TimeForNaturalDrain,
 }

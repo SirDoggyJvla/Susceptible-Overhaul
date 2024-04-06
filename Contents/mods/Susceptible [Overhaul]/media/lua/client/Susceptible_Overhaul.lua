@@ -28,6 +28,32 @@ require "Susceptible/SusceptibleMaskData_additions"
 -- localy import data
 local SusceptibleMaskItems = SusceptibleMaskItems
 local SusceptibleRepairTypes = SusceptibleRepairTypes
+local SusceptibleMod = SusceptibleMod
+
+--- Checks if player has a cloth mask and outputs the result. 
+---
+--- `player` is optional and will be retrieved by the code if not provided.
+--- Just make sure to run this function client side or `getPlayer()` will not 
+--- give out anything and the function will be skipped.
+---@param player IsoPlayer   [opt]
+---@return boolean isWearingGasmask
+Susceptible_Overhaul.isWearingClothMask = function(player)
+    player = player or getPlayer()
+    if not player then return false end
+
+    -- retrieves item and mask protections if worn by player
+	local item, mask = SusceptibleMod.getEquippedMaskItemAndData(player);
+    if not mask or SusUtil.isBroken(item) then
+        return false
+    end
+
+	-- checks if mask with filter is on, else return false for no gasmask
+	if mask.repairType == SusceptibleRepairTypes.CLOTH then
+		return true
+	end
+
+	return false
+end
 
 --- Checks if player has a gas mask and outputs the result. 
 ---
