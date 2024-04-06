@@ -2,21 +2,25 @@ version=1
 id=3204615438
 title=Susceptible - Overhaul
 description=[h1]What does this mod do ?[/h1]
-description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as Hazardous Zones or Cordyceps Spore Zones via my Overhaul mods.
+description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
 description=
-description=[u][b]Features:[/b][/u]
+description=[h3]Features:[/h3]
 description=[olist]
-description=[*]Uses the [b]list of masks and hazmat suits from Susceptible[/b] for more mod compatibilities. (such as respirators from STALKER armor pack or gasmasks from Undead Survivor)
+description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as respirators from STALKER armor pack or gasmasks from Undead Survivor)
+description=
+description=[*][b]Permanent UI of Susceptible[/b] even without the trait. (won't show you're in danger from zombies if you don't have the trait)
 description=
 description=[*]Ability to [b]remove the Susceptible trait[/b] from character creation with a secondary mod ! 
 description=
-description=[*]Framework for other mods to use the durability system of the original mod.
+description=[*][b]Framework[/b] for other mods to use the [b]durability system[/b] of the original mod and the [b]list of protection types[/b] from Susceptible.
+description=
+description=[*]Adds [b]new functions for modders[/b] to check whenever the player has a gas mask or hazmat on with effective protection. (Other types of protections weren't added because I had no need but I can add them for modders who are interested)
 description=[/olist]
 description=
 description=
 description=[h1]List of compatible mods[/h1]
 description=[img]https://i.imgur.com/duKKrc4.jpg[/img]
-description=[quote]Courtesy of Susceptible[/quote]
+description=[quote]From Susceptible[/quote]
 description=[h3]Added by Susceptible[/h3]
 description=These are mods that are compatible with Susceptible and are now all taken into account for their added gas mask filter and oxygen tank based protection for hazardous zones.
 description=[list]
@@ -56,11 +60,24 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=30799
 description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Antibelok)
 description=[/list]
 description=
+description=[h1]Suggestions[/h1]
+description=[table]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245] [img]https://steamuserimages-a.akamaihd.net/ugc/2262560445663452250/EE2D753190C2A58BB40B3FE08DA0DE33EF7D4C50/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006143351]Cordyceps Spore Zones[/url] from Braven.[/td]
+description=[/tr]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278] [img]https://steamuserimages-a.akamaihd.net/ugc/2430327955924088452/1516133188ECFE730C797B52EE0A863A536468BF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3084326684]Hazardous Zones[/url] by WarHead.[/td]
+description=[/tr]
+description=[/table]
+description=
 description=[h1]Remarks[/h1]
 description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
 description=
 description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
 description=
 description=[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
-tags=Build 41;Balance;Clothing/Armor;Hardmode;Interface;Items;Misc;Realistic;Traits
+description=
+tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public
