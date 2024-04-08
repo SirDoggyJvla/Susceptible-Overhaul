@@ -158,7 +158,6 @@ local function OnGameStart()
                 SusceptibleMod.damageMask(item, mask, damage);
 
                 local data = SusUtil.getItemModData(item);
-                player:addLineChatElement("Durability = "..tostring(data.durability).."\ndamage = "..tostring(damage))
             end
         end
     else

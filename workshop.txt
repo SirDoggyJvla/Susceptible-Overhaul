@@ -24,7 +24,7 @@ description=[h1]List of compatible mods[/h1]
 description=[img]https://i.imgur.com/duKKrc4.jpg[/img]
 description=[quote]From Susceptible[/quote]
 description=[h3]Added by Susceptible[/h3]
-description=These are mods that are compatible with Susceptible and are now all taken into account for their added gas mask filter and oxygen tank based protection for hazardous zones.
+description=These are mods that are compatible with Susceptible and are now all taken into account for their various protection types (cloth, filter, oxygen tank etc).
 description=[list]
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829]AuthenticZ[/url]
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2801714948]Better Masks[/url]
@@ -62,7 +62,8 @@ description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=30799
 description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Added Antibelok)
 description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3038026478]zRe ARMOR PACK[/url]
 description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3210604443]CRM Armor[/url]
-description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url] (Buffed the gasmasks and fix Nomad Masks needing filters)
+description=[*] Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url] (Buffed the gasmasks and fix Nomad Masks needing filters)
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod by kERTHUS[/url]
 description=[/list]
 description=
 description=[h1]Suggestions[/h1]
