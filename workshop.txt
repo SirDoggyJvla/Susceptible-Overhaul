@@ -56,7 +56,7 @@ description=[/list]
 description=Don't hesitate to report any mod that doesn't work, I can update the compatibility list.
 description=
 description=[h3]Added by my mod[/h3]
-description=Those are mods now compatible with Susceptible and thus Hazardous Zones:
+description=Those are mods now compatible with Susceptible:
 description=[list]
 description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3079948242]KATTAJ1 Military Pack[/url]
 description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Added Antibelok)

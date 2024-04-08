@@ -40,6 +40,9 @@ local mask_data = {
 	-- zRe Armor Pack
 	zRe_Respirator =									  { durability=400, repairType=FILTER },
 	zRe_Tractor_Hat_GasMask =							  { durability=400, repairType=FILTER },
+	-- zRe Vaccine 2.0 ReMod
+	zReV2_1ECO_fullhelmet1 = 							  { durability=400, repairType=FILTER },
+	zReV2_1ECO_fullhelmet2 = 							  { durability=400, repairType=FILTER },
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack

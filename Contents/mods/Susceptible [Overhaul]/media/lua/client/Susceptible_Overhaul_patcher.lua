@@ -145,7 +145,7 @@ local function OnGameStart()
     end
 
     if SandboxVars.Susceptible.RealisticMode then
-        DebugLog.log("Susceptible_Overhaul: Overwriting SusceptibleUtil.onPlayerGasMaskDrain")
+        DebugLog.log("Susceptible_Overhaul: Overwriting SusceptibleMod.onPlayerGasMaskDrain")
 
         function SusceptibleMod.onPlayerGasMaskDrain(player)
             if not player then
@@ -154,12 +154,15 @@ local function OnGameStart()
 
             local item, mask = SusceptibleMod.getEquippedMaskItemAndData(player);
             if mask and not SusUtil.isBroken(item) then
-                local damage = ( SandboxVars.Susceptible.TimeForNaturalDrain * (2 - player:getStats():getEndurance()) )^3
+                local damage = ( SandboxVars.Susceptible.TimeForNaturalDrain * math.exp(2 - player:getStats():getEndurance()) )^3
                 SusceptibleMod.damageMask(item, mask, damage);
+
+                local data = SusUtil.getItemModData(item);
+                player:addLineChatElement("Durability = "..tostring(data.durability).."\ndamage = "..tostring(damage))
             end
         end
     else
-        DebugLog.log("Susceptible_Overhaul: Removing SusceptibleUtil.onGasMaskDrain")
+        DebugLog.log("Susceptible_Overhaul: Removing SusceptibleMod.onGasMaskDrain")
 
         Events.EveryTenMinutes.Remove(SusceptibleMod.onGasMaskDrain)
     end
