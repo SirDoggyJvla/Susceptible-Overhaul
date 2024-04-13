@@ -7,7 +7,7 @@
 --[[ ================================================ ]]--
 --[[
 
-This file defines the module of the mod of Susceptible - Overhaul.
+This file defines the module of the mod of Susceptible [Overhaul].
 
 ]]--
 --[[ ================================================ ]]--

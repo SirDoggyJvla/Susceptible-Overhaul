@@ -1,12 +1,21 @@
 Sandbox_EN = {
-	Sandbox_SusceptibleOverhaul = "Susceptible - Overhaul",
+	Sandbox_SusceptibleOverhaul = "Susceptible [Overhaul]",
 
 	Sandbox_Susceptible_FailIfHoles = "Hazmat fails if holes",
 	Sandbox_Susceptible_FailIfHoles_tooltip = "Hazmat types of protections will not protect if there are holes in it.",
 
-	Sandbox_Susceptible_RealisticMode = "Realistic Mode",
+	Sandbox_Susceptible_RealisticMode = "Natural drain",
 	Sandbox_Susceptible_RealisticMode_tooltip = "Protections will be drained even when out of danger.",
+
+	Sandbox_Susceptible_HardBreathing = "Hard breathing",
+	Sandbox_Susceptible_HardBreathing_tooltip = "Protections will make it harder to breath, causing the character to get exhausted faster. <LINES>Protection type affects the exhaustion in the following order from easier to breath to hardest: <INDENT:20> <LINE> - Cloth masks <LINE> - Filter <LINE> - Oxygen <LINE> <INDENT:0> ",
 
 	Sandbox_Susceptible_TimeForNaturalDrain = "Time for realistic mode drain",
 	Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "Protections will be drained based on this factor. Exhaustion exponentially increases the durability consumption, <LINE>meaning removing a gas mask, or it's filter at a minimum, when exhausted might be important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
+
+	Sandbox_Susceptible_RemoveMaskWhenEating = "Remove protection when eating",
+	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Your character will remove its protection to be able to eat.",
+
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Allow equipping masks while walking",
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Your character is able to equip and remove its mask when walking (because you're not a fucking moron).",
 }

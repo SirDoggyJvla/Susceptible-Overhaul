@@ -12,6 +12,9 @@ This file defines the addition of new compatible mods to masks and shit.
 ]]--
 --[[ ================================================ ]]--
 
+-- load SusceptibleMaskItems first
+require "Susceptible/SusceptibleMaskData"
+
 local NONE = "None"; --wtf is even the point of that one lol
 local CLOTH = "Cloth";
 local FILTER = "Filter";
@@ -35,6 +38,8 @@ local mask_data = {
 	Antibelok_ON =                            	    	  { durability=600, repairType=OXYGEN },
 
 --- Gas masks ---
+	-- vanilla Nuclear Biochemical Mask
+	Hat_NBCmask =						                  { durability=400, repairType=FILTER },
 	-- KATTAJ1 Military Pack
 	["Military_MaskHelmet_GasMask-M80"]  =                { durability=400, repairType=FILTER },
 	-- zRe Armor Pack

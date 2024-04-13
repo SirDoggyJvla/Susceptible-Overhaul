@@ -14,10 +14,31 @@ option Susceptible.RealisticMode
 	translation = Susceptible_RealisticMode,
 }
 
+option Susceptible.HardBreathing
+{
+	type = boolean, default = true,
+	page = SusceptibleOverhaul,
+	translation = Susceptible_HardBreathing,
+}
+
 option Susceptible.TimeForNaturalDrain
 {
     type = double,
     min = 0.08, default = 0.25, max = 0.88,
     page = SusceptibleOverhaul,
     translation = Susceptible_TimeForNaturalDrain,
+}
+
+option Susceptible.RemoveMaskWhenEating
+{
+	type = boolean, default = true,
+	page = SusceptibleOverhaul,
+	translation = Susceptible_RemoveMaskWhenEating,
+}
+
+option Susceptible.AllowMaskRemovalDuringWalk
+{
+	type = boolean, default = true,
+	page = SusceptibleOverhaul,
+	translation = Susceptible_AllowMaskRemovalDuringWalk,
 }

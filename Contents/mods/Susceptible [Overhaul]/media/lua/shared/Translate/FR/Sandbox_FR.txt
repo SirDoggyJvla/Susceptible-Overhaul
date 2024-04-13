@@ -1,0 +1,23 @@
+*/ TRANSLATION MADE BY inkredibehl
+*/ https://github.com/Inkredibehl/SusceptibleOverhaul-FR/blob/main/Sandbox_FR.txt
+Sandbox_FR = {
+    Sandbox_SusceptibleOverhaul = "Susceptible [Overhaul]",
+
+    Sandbox_Susceptible_FailIfHoles = "Échec du matériel hazmat en cas de trous",
+    Sandbox_Susceptible_FailIfHoles_tooltip = "Les équipements de protection hazmat ne protégeront pas s'il y a des trous.",
+
+    Sandbox_Susceptible_RealisticMode = "Drainage natural",
+    Sandbox_Susceptible_RealisticMode_tooltip = "Les protections seront consommées même lorsque vous êtes hors danger.",
+
+	Sandbox_Susceptible_HardBreathing = "Respiration difficile",
+    Sandbox_Susceptible_HardBreathing_tooltip = "Les protections rendent la respiration plus difficile, épuisant le personnage plus rapidement. <LINES>Le type de protection affecte plus ou moins la respiration, dans l'ordre suivant en partant du plus facile pour respirer au plus difficile: <INDENT:20> <LINE> - Masques en papier/tissue <LINE> - Filtres <LINE> - Oxygène <LINE> <INDENT:0> ",
+
+    Sandbox_Susceptible_TimeForNaturalDrain = "Temps de consommation réaliste",
+    Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "La consommation des protections sera basée sur ce facteur. L'épuisement augmente exponentiellement la consommation de durabilité, ce qui signifie que retirer un masque à gaz, ou simplement son filtre en cas d'épuisement, pourrait être important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
+
+	Sandbox_Susceptible_RemoveMaskWhenEating = "Enlève la protection en mangeant",
+	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Le personnage va retirer sa protection avant de manger.",
+
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Permet d'équiper son masque en marchant",
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Le personnage est capable d'équiper et de retirer son masque en marchant (parce que tu n'es pas complètement abruti).",
+}

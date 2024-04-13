@@ -6,7 +6,7 @@
 --[[ ================================================ ]]--
 --[[
 
-This file defines the patches to functions of Susceptible by the mod Susceptible - Overhaul.
+This file defines the patches to functions of Susceptible by the mod Susceptible [Overhaul].
 
 ]]--
 --[[ ================================================ ]]--
@@ -18,6 +18,8 @@ require "Susceptible/SusceptibleMaskData_additions"
 -- localy import data
 local SusceptibleMaskItems = SusceptibleMaskItems
 local SusceptibleRepairTypes = SusceptibleRepairTypes
+
+Events.OnPlayerUpdate.Remove(SusceptibleMod.onPlayerUpdate)
 
 --- Modify `SusceptibleMod.onPlayerUpdate` with my own.
 --- Add UI to player even if not Susceptible.
@@ -156,8 +158,6 @@ local function OnGameStart()
             if mask and not SusUtil.isBroken(item) then
                 local damage = ( SandboxVars.Susceptible.TimeForNaturalDrain * math.exp(2 - player:getStats():getEndurance()) )^3
                 SusceptibleMod.damageMask(item, mask, damage);
-
-                local data = SusUtil.getItemModData(item);
             end
         end
     else
