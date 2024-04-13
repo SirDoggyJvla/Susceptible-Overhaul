@@ -33,7 +33,7 @@ local keyConfigs = {
 		displayName = getText("UI_optionscreen_binding_equipSusceptibleProtection"),
         keyCode = 0,
     },
-    changeFilterOxygenMask23456789 = {
+    changeFilterOxygenMask = {
         isHotAction = true,
         isFlexKey = true,
 		action = changeFilterOxygenTank,
