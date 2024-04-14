@@ -107,7 +107,10 @@ Susceptible_Overhaul.getRecharge = function(player,protectionType)
             data.useCount = 0
         end
     elseif protectionType == "Cloth" then
-        recharge = inv:getFirstTypeRecurse("ClothMask")
+        recharge = SusUtil.findAllClothMasks(inv)
+        if recharge then
+            recharge = recharge:get(0)
+        end
     end
 
     return recharge

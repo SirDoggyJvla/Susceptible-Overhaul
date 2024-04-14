@@ -10,7 +10,7 @@ Sandbox_EN = {
 	Sandbox_Susceptible_HardBreathing = "Hard breathing",
 	Sandbox_Susceptible_HardBreathing_tooltip = "Protections will make it harder to breath, causing the character to get exhausted faster. <LINES>Protection type affects the exhaustion in the following order from easier to breath to hardest: <INDENT:20> <LINE> - Cloth masks <LINE> - Filter <LINE> - Oxygen <LINE> <INDENT:0> ",
 
-	Sandbox_Susceptible_TimeForNaturalDrain = "Time for realistic mode drain",
+	Sandbox_Susceptible_TimeForNaturalDrain = "Time for natural drain",
 	Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "Protections will be drained based on this factor. Exhaustion exponentially increases the durability consumption, <LINE>meaning removing a gas mask, or it's filter at a minimum, when exhausted might be important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
 
 	Sandbox_Susceptible_RemoveMaskWhenEating = "Remove protection when eating",
