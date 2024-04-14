@@ -334,7 +334,7 @@ Susceptible_Overhaul.OnPlayerUpdate = function(player)
     elseif not player:isSitOnGround() then
         penalization = 0.002
     end
-    player:addLineChatElement(tostring(penalization))
+
     -- apply multiplier
     penalization = penalization/60 * multi
     player:exert(penalization)
