@@ -64,7 +64,7 @@ Susceptible_Overhaul.getProtectionInInventory = function(player,protectionType)
             mask = SusceptibleMaskItems:getMaskData(item)
             if mask then
                 if not protectionType then
-                    priority = priority_mask[mask.repairType]
+                    priority = priority_mask[mask.repairType] or 4 --default is cloth if is mask
                     if priority < found_priority then
                         found_item = item
                         found_mask = mask
@@ -91,35 +91,20 @@ end
 --- If no protection is found, it outputs 2 `false` `boolean`.
 ---@param player IsoPlayer
 ---@param protectionType string [opt]
----@return InventoryItem|boolean recharge
+---@return InventoryItem|nil recharge
 Susceptible_Overhaul.getRecharge = function(player,protectionType)
     local inv = player:getInventory()
 
-    local recharge
+    local recharge = nil
     if protectionType == "Oxygen" then
         recharge = inv:getFirstTypeRecurse("OxygenTank")
     elseif protectionType == "Filter" then
         recharge = inv:getFirstTypeRecurse("GasmaskFilter")
     elseif protectionType == "Wash" then
         recharge = inv:getFirstTypeRecurse("Bleach")
-        if recharge then
-            local bleach = SusUtil.findAllBleach(inv);
-            if bleach:size() > 0 then
-                local mostUsed = nil;
-                local mostUsedVal = -1;
-                for i=1,bleach:size() do
-                    local ble = bleach:get(i-1);
-                    local data = ble:getModData();
-                    if not data.useCount then
-                        data.useCount = 0;
-                    end
-
-                    if data.useCount > mostUsedVal then
-                        mostUsed = ble;
-                        mostUsedVal = data.useCount;
-                    end
-                end
-            end
+        local data = recharge:getModData()
+        if not data.useCount then
+            data.useCount = 0
         end
     elseif protectionType == "Cloth" then
         recharge = inv:getFirstTypeRecurse("ClothMask")
@@ -330,7 +315,7 @@ Susceptible_Overhaul.OnPlayerUpdate = function(player)
     local penalization = 0.001
 
     -- get timeDelta + fitness level multipliers
-    local timeDelta = getGameTime():getMultiplier()/0.8 --normalize it
+    local timeDelta = getGameTime():getMultiplier() --normalize it
     local multi = ((15 - player:getPerkLevel(Perks.Fitness))/10)^3 * timeDelta * multi_mask
 
     -- apply penalization based on current movement state
@@ -349,7 +334,7 @@ Susceptible_Overhaul.OnPlayerUpdate = function(player)
     elseif not player:isSitOnGround() then
         penalization = 0.002
     end
-    --player:addLineChatElement(tostring(penalization))
+    player:addLineChatElement(tostring(penalization))
     -- apply multiplier
     penalization = penalization/60 * multi
     player:exert(penalization)

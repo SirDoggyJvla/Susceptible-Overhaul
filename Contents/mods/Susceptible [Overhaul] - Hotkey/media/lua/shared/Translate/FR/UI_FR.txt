@@ -1,10 +1,10 @@
 UI_EN = {
-    UI_optionscreen_binding_equipSusceptibleProtection = "Equiper/dÃ©sÃ©quiper le masque",
+    UI_optionscreen_binding_equipSusceptibleProtection = "Equiper/déséquiper le masque",
     UI_say_equipSusceptibleProtection = "Je n'ai pas de masque sur moi.",
 
     UI_optionscreen_binding_changeFilterOxygenMask = "Recharger la protection",
     UI_say_changeFilter = "Je n'ai aucun filtre.",
-    UI_say_changeOxygenTank = "Je n'ai pas de bombone d'oxygÃ¨ne.",
+    UI_say_changeOxygenTank = "Je n'ai pas de bombone d'oxygène.",
     UI_say_changeWash = "Je n'ai pas de javel pour nettoyer mon masque.",
     UI_say_changeCloth = "Je n'ai pas de masque en tissue.",
 }

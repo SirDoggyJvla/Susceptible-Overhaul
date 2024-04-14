@@ -16,12 +16,10 @@ local Susceptible_Overhaul = require "Susceptible_Overhaul_module"
 require "Susceptible_Overhaul_Hotkeys"
 
 local function equipSusceptibleProtection()
-    print("run equip protection")
     Susceptible_Overhaul.equipSusceptibleProtection()
 end
 
 local function changeFilterOxygenTank()
-    print("change filter oxygen tank")
     Susceptible_Overhaul.changeFilterOxygenTank()
 end
 

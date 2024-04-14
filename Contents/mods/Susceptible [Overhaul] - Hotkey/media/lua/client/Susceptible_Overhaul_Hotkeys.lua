@@ -137,7 +137,6 @@ end
 --- - If player has a protection, unequip it
 --- - Else, equip available protection
 Susceptible_Overhaul.equipSusceptibleProtection = function()
-    print("run function")
     -- get player info
     local player = getPlayer()
     local item, mask = SusceptibleMod.getEquippedMaskItemAndData(player)
@@ -151,6 +150,8 @@ Susceptible_Overhaul.equipSusceptibleProtection = function()
     -- retrieve available protection without specific choice for type
     item, mask = Susceptible_Overhaul.getProtectionInInventory(player,nil)
 
+    -- if item or mask in inventory, equip it
+    -- else say player doesn't have a mask available
     if mask then
         ISTimedActionQueue.add(ISWearClothing:new(player, item, 50))
     else
@@ -158,55 +159,43 @@ Susceptible_Overhaul.equipSusceptibleProtection = function()
     end
 end
 
+local repairFunctions = {
+    ["Filter"] = addRemoveFilterDelayed,
+    ["Oxygen"] = addRemoveOxygenDelayed,
+    ["Wash"] = repairWithBleachDelayed,
+    ["Cloth"] = repairWithClothMaskDelayed,
+}
+local sayNoRepair = {
+    ["Filter"] = getText("UI_say_changeFilter"),
+    ["Oxygen"] = getText("UI_say_changeOxygenTank"),
+    ["Wash"] = getText("UI_say_changeWash"),
+    ["Cloth"] = getText("UI_say_changeCloth"),
+}
+
 Susceptible_Overhaul.changeFilterOxygenTank = function()
     -- get player info
     local player = getPlayer()
     local item, mask = SusceptibleMod.getEquippedMaskItemAndData(player)
 
-    -- if player has mask, unequip it
+    -- if player has mask, check if recharge and repair or say no recharge if none
     if mask then
-        local recharge = false
-        local type = nil
-        if mask.repairType == SusceptibleRepairTypes.FILTER then
-            recharge = Susceptible_Overhaul.getRecharge(player,SusceptibleRepairTypes.FILTER)
-            type = "Filter"
-        elseif mask.repairType == SusceptibleRepairTypes.OXYGEN then
-            recharge = Susceptible_Overhaul.getRecharge(player,SusceptibleRepairTypes.OXYGEN)
-            type = "Oxygen"
-        elseif mask.repairType == SusceptibleRepairTypes.WASH then
-            recharge = Susceptible_Overhaul.getRecharge(player,SusceptibleRepairTypes.WASH)
-            type = "Wash"
-            print(recharge)
-        elseif mask.repairType == SusceptibleRepairTypes.CLOTH then
-            recharge = Susceptible_Overhaul.getRecharge(player,SusceptibleRepairTypes.CLOTH)
-            type = "Cloth"
+        -- get type repair and recharge if available
+        local type = mask.repairType or "Cloth"
+        local recharge = Susceptible_Overhaul.getRecharge(player,type)
+
+		-- transfer recharge in main inventory if not in it
+		ISInventoryPaneContextMenu.transferIfNeeded(player, recharge)
+
+        -- for each type of repair, repair protection or if no recharge then say it
+        if recharge then
+            repairFunctions[type](item,recharge,player)
+        else
+            player:Say(sayNoRepair[type])
         end
-        if type == "Filter" then
-            if recharge then
-                addRemoveFilterDelayed(item,recharge,player)
-            else
-                player:Say(getText("UI_say_changeFilter"))
-            end
-        elseif type == "Oxygen" then
-            if recharge then
-                addRemoveOxygenDelayed(item,recharge,player)
-            else
-                player:Say(getText("UI_say_changeOxygenTank"))
-            end
-        elseif type == "Wash" then
-            if recharge then
-                repairWithBleachDelayed(item,recharge,player)
-            else
-                player:Say(getText("UI_say_changeWash"))
-            end
-        elseif type == "Cloth" then
-            if recharge then
-                repairWithClothMaskDelayed(item,recharge,player)
-            else
-                player:Say(getText("UI_say_changeCloth"))
-            end
-        end
+
+    -- player doesn't have a mask, equip one
+    -- if no mask available then say it
     else
-        player:Say(getText("UI_say_equipSusceptibleProtection"))
+        Susceptible_Overhaul.equipSusceptibleProtection()
     end
 end
