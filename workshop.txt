@@ -1,171 +1,95 @@
 version=1
 id=3204615438
 title=Susceptible [Overhaul]
-description=[h1]What does this mod do ?[/h1]
-
-description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
-
-description=
-
-description=[h3]Features:[/h3]
-
-description=[olist]
-
-description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as zRe ARMOR PACK or KATTAJ1 Military Pack)
-
-description=
-
-description=[*][b]Permanent UI of Susceptible[/b] even without the trait. (won't show you're in danger from zombies if you don't have the trait)
-
-description=
-
-description=[*]New [b]Realistic Mode[/b] to have the protections be consumed even when not filtering hazardous materials ! Being exhausted will also [url=https://raw.githubusercontent.com/SirDoggyJvla/Susceptible---Overhaul/main/images/Realistic_mode.png]increase this consumption[/url] !
-
-description=
-
-description=[*]Ability to [b]remove the Susceptible trait[/b] from character creation with a secondary mod ! 
-
-description=
-
-description=[*][b]Framework[/b] for other mods to use the [b]durability system[/b] of the original mod and the [b]list of protection types[/b] from Susceptible.
-
-description=
-
-description=[*]Adds [b]new functions for modders[/b] to check whenever the player has a gas mask or hazmat on with effective protection. (Other types of protections weren't added because I had no need but I can add them for modders who are interested)
-
-description=[/olist]
-
-description=
-
-description=
-
-description=[h1]List of compatible mods[/h1]
-
-description=[img]https://i.imgur.com/duKKrc4.jpg[/img]
-
-description=[quote]From Susceptible[/quote]
-
-description=[h3]Added by Susceptible[/h3]
-
-description=These are mods that are compatible with Susceptible and are now all taken into account for their various protection types (cloth, filter, oxygen tank etc).
-
-description=[list]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829]AuthenticZ[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2801714948]Better Masks[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2796659476]Dive's Armour Pack[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2398817519]HEADGEAR[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2279084780]Paw Low[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2771076559]Project Fallout: Ranger Armors[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754737950]Project Fallout: Legionary Armors[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824161886]Project Fallout: Scientific Armors[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2579437712]REMod[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264]Scrap Armor![/url]
-
-description=[*]Shark's Law Enforcement Overhaul
-
-description=[*]Shark's (and Peach's) Military Uniform Improvements
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2831715402]STALKER - Armor Pack[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445]Swat and Riot Pack[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876]They Knew[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2760742937]Working Masks[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2845972123]Commonwealth Armor Pack[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893266530]CRM Armor[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836225650]Slyy's Spicy Attire[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2874507972]AsuraChi[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2891237357]KP Armor[/url]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2866446130]ODST[/url]
-
-description=[*]Space Marine Armor
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2907683021]Insurgent[/url]
-
-description=[/list]
-
-description=Don't hesitate to report any mod that doesn't work, I can update the compatibility list.
-
-description=
-
-description=[h3]Added by my mod[/h3]
-
-description=Those are mods now compatible with Susceptible:
-
-description=[list]
-
-description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3079948242]KATTAJ1 Military Pack[/url]
-
-description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Added Antibelok)
-
-description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3038026478]zRe ARMOR PACK[/url]
-
-description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3210604443]CRM Armor[/url]
-
-description=[*] Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url] (Buffed the gasmasks and fix Nomad Masks needing filters)
-
-description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod by kERTHUS[/url]
-
-description=[/list]
-
-description=
-
-description=[h1]Suggestions[/h1]
-
-description=[table]
-
-description=[tr]
-
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245] [img]https://steamuserimages-a.akamaihd.net/ugc/2262560445663452250/EE2D753190C2A58BB40B3FE08DA0DE33EF7D4C50/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006143351]Cordyceps Spore Zones[/url] from Braven.[/td]
-
-description=[/tr]
-
-description=[tr]
-
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278] [img]https://steamuserimages-a.akamaihd.net/ugc/2430327955924088452/1516133188ECFE730C797B52EE0A863A536468BF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3084326684]Hazardous Zones[/url] by WarHead.[/td]
-
-description=[/tr]
-
-description=[/table]
-
-description=
-
-description=[h1]Remarks[/h1]
-
-description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
-
-description=
-
-description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
-
-description=
-
-description=[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
-
+description=[h1]What does this mod do ?[/h1]
+description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
+description=
+description=[h3]Features:[/h3]
+description=[olist]
+description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as zRe ARMOR PACK or KATTAJ1 Military Pack)
+description=
+description=[*][b]Permanent UI of Susceptible[/b] even without the trait. (won't show you're in danger from zombies if you don't have the trait)
+description=
+description=[*]New [b]Realistic Mode[/b] to have the protections be consumed even when not filtering hazardous materials ! Being exhausted will also [url=https://raw.githubusercontent.com/SirDoggyJvla/Susceptible---Overhaul/main/images/Realistic_mode.png]increase this consumption[/url] !
+description=
+description=[*]Ability to [b]remove the Susceptible trait[/b] from character creation with a secondary mod ! 
+description=
+description=[*][b]Framework[/b] for other mods to use the [b]durability system[/b] of the original mod and the [b]list of protection types[/b] from Susceptible.
+description=
+description=[*]Adds [b]new functions for modders[/b] to check whenever the player has a gas mask or hazmat on with effective protection. (Other types of protections weren't added because I had no need but I can add them for modders who are interested)
+description=[/olist]
+description=
+description=
+description=[h1]List of compatible mods[/h1]
+description=[img]https://i.imgur.com/duKKrc4.jpg[/img]
+description=[quote]From Susceptible[/quote]
+description=[h3]Added by Susceptible[/h3]
+description=These are mods that are compatible with Susceptible and are now all taken into account for their various protection types (cloth, filter, oxygen tank etc).
+description=[list]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829]AuthenticZ[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2801714948]Better Masks[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2796659476]Dive's Armour Pack[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2398817519]HEADGEAR[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2279084780]Paw Low[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2771076559]Project Fallout: Ranger Armors[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2754737950]Project Fallout: Legionary Armors[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824161886]Project Fallout: Scientific Armors[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2579437712]REMod[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264]Scrap Armor![/url]
+description=[*]Shark's Law Enforcement Overhaul
+description=[*]Shark's (and Peach's) Military Uniform Improvements
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2831715402]STALKER - Armor Pack[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445]Swat and Riot Pack[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876]They Knew[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2760742937]Working Masks[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2845972123]Commonwealth Armor Pack[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893266530]CRM Armor[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836225650]Slyy's Spicy Attire[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2874507972]AsuraChi[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2891237357]KP Armor[/url]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2866446130]ODST[/url]
+description=[*]Space Marine Armor
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2907683021]Insurgent[/url]
+description=[/list]
+description=Don't hesitate to report any mod that doesn't work, I can update the compatibility list.
+description=
+description=[h3]Added by my mod[/h3]
+description=Those are mods now compatible with Susceptible:
+description=[list]
+description=[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3079948242]KATTAJ1 Military Pack[/url]
+description=[*]Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811]Brita's Armour Pack[/url] (Added Antibelok)
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3038026478]zRe ARMOR PACK[/url]
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3210604443]CRM Armor[/url]
+description=[*] Updated [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292]Undead Survivor[/url] (Buffed the gasmasks and fix Nomad Masks needing filters)
+description=[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod by kERHUS[/url]
+description=[/list]
+description=
+description=[h1]Suggestions[/h1]
+description=[table]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245] [img]https://steamuserimages-a.akamaihd.net/ugc/2262560445663452250/EE2D753190C2A58BB40B3FE08DA0DE33EF7D4C50/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006143351]Cordyceps Spore Zones[/url] from Braven.[/td]
+description=[/tr]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278] [img]https://steamuserimages-a.akamaihd.net/ugc/2430327955924088452/1516133188ECFE730C797B52EE0A863A536468BF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3084326684]Hazardous Zones[/url] by WarHead.[/td]
+description=[/tr]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377] [img]https://steamuserimages-a.akamaihd.net/ugc/5819288008762402584/B8E3DF4F1E5DE91D1DE0ADE3169C1F0ACA910AC9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod[/url] by kERHUS adds a way to remove the Susceptible trait thanks to a vaccin. It also adds great looking gas masks and armored ones against bullets fully compatible with Susceptible thanks to my mod.[/td]
+description=[/tr]
+description=[/table]
+description=
+description=[h1]Remarks[/h1]
+description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
+description=
+description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
+description=
+description=[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=
+description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://i.imgflip.com/4ke5lg.png?a475512[/img][/url]
+description=
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public
