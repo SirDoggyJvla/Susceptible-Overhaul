@@ -4,20 +4,9 @@ title=Susceptible [Overhaul]
 description=[h1]What does this mod do ?[/h1]
 description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
 description=
-description=[h3]Features:[/h3]
-description=[olist]
-description=[*]Adds [b]more mod compatibilities[/b] to Susceptible. (such as zRe ARMOR PACK or KATTAJ1 Military Pack)
-description=
-description=[*][b]Permanent UI of Susceptible[/b] even without the trait. (won't show you're in danger from zombies if you don't have the trait)
-description=
-description=[*]New [b]Realistic Mode[/b] to have the protections be consumed even when not filtering hazardous materials ! Being exhausted will also [url=https://raw.githubusercontent.com/SirDoggyJvla/Susceptible---Overhaul/main/images/Realistic_mode.png]increase this consumption[/url] !
-description=
-description=[*]Ability to [b]remove the Susceptible trait[/b] from character creation with a secondary mod ! 
-description=
-description=[*][b]Framework[/b] for other mods to use the [b]durability system[/b] of the original mod and the [b]list of protection types[/b] from Susceptible.
-description=
-description=[*]Adds [b]new functions for modders[/b] to check whenever the player has a gas mask or hazmat on with effective protection.
-description=[/olist]
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/ui_permanent.png[/img]
+description=[video mp4=https://github.com/SirDoggyJvla/Susceptible-Overhaul/raw/main/images/natural_drain.mp4][/video]
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/remove_trait.png[/img]
 description=
 description=[table]
 description=[tr]
@@ -27,7 +16,7 @@ description=[/tr]
 description=[/table]
 description=
 description=[h1]List of compatible mods[/h1]
-description=[img]https://i.imgur.com/duKKrc4.jpg[/img]
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_compatibilities.png[/img]
 description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/8059829560012821057/]Full list of compatible mods[/url][/quote]
 description=
 description=[h1]Suggestions[/h1]
@@ -49,11 +38,8 @@ description=
 description=[h1]Remarks[/h1]
 description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
 description=
-description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
-description=
-description=[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
 description=
 description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_advancement.png[/img][/url]
-description=
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public
