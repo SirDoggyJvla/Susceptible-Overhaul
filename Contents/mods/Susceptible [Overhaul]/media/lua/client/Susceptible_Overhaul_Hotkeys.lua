@@ -6,7 +6,7 @@
 --[[ ================================================ ]]--
 --[[
 
-This file defines the EquipSusceptibleProtection keybinds by using Eggon's Hotkeys framework.
+This file defines the EquipSusceptibleProtection keybinds by using Mod Options framework.
 
 ]]--
 --[[ ================================================ ]]--
@@ -23,27 +23,14 @@ local DelayedAction = require "Susceptible/Actions/DelayedCodeExecutionTimedActi
 
 -- priority load
 require "Susceptible/SusceptibleMaskData_additions"
-require "--EHK_Init"
 
 -- import localy for performance reasons
-local SusceptibleMaskItems = SusceptibleMaskItems
-local SusceptibleRepairTypes = SusceptibleRepairTypes
 local SusceptibleMod = SusceptibleMod
 
 
 --#region local functions from ISInventoryPaneContextMenu_patch_add_filter_repair_options.lua
 
 local MAX_BLEACH_USES = 20
-
-local function getConditionPercent(item)
-	local cond = SusUtil.getNormalizedDurability(item);
-	cond = math.floor(cond * 100);
-	return cond.."%";
-end
-
-local function createDelayedAction(player, func)
-	return DelayedAction:new(player, func, 120);
-end
 
 local animateHead = function(action)
 	action:setActionAnim("WearClothing");
@@ -198,4 +185,29 @@ Susceptible_Overhaul.changeFilterOxygenTank = function()
     else
         Susceptible_Overhaul.equipSusceptibleProtection()
     end
+end
+
+--- Add the keybinds 
+if ModOptions and ModOptions.AddKeyBinding then
+    local equipSusceptibleProtection = {
+        key = Keyboard.KEY_M,  --default
+        name = "equipSusceptibleProtection",  -- just id (user won't see this name)
+    }
+
+    local changeFilterOxygenTank = {
+        key = Keyboard.KEY_L,  --default
+        name = "changeFilterOxygenTank",  -- just id (user won't see this name)
+    }
+
+    local function SO_keyPress(keynum)
+        if keynum == equipSusceptibleProtection.key then
+            Susceptible_Overhaul.equipSusceptibleProtection()
+        elseif keynum == changeFilterOxygenTank.key then
+            Susceptible_Overhaul.changeFilterOxygenTank()
+        end
+    end
+    Events.OnKeyPressed.Add(SO_keyPress)
+
+    ModOptions:AddKeyBinding("[Susceptible]",equipSusceptibleProtection)
+    ModOptions:AddKeyBinding("[Susceptible]",changeFilterOxygenTank)
 end

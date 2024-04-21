@@ -1,8 +1,10 @@
 UI_EN = {
+    UI_optionscreen_binding_Susceptible = "Susceptible - Overhaul"
+
     UI_optionscreen_binding_equipSusceptibleProtection = "Equip/unequip Susceptible Protection",
     UI_say_equipSusceptibleProtection = "I don't have any airborn protection on me.",
 
-    UI_optionscreen_binding_changeFilterOxygenMask = "Recharge airborn protection",
+    UI_optionscreen_binding_changeFilterOxygenTank = "Recharge airborn protection",
     UI_say_changeFilter = "I don't have any filter.",
     UI_say_changeOxygenTank = "I don't have any oxygen tank.",
     UI_say_changeWash = "I don't have any bleach to wash my mask.",

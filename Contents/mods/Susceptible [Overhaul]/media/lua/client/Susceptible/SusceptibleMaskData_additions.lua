@@ -48,6 +48,8 @@ local mask_data = {
 	-- zRe Vaccine 2.0 ReMod
 	zReV2_1ECO_fullhelmet1 = 							  { durability=400, repairType=FILTER },
 	zReV2_1ECO_fullhelmet2 = 							  { durability=400, repairType=FILTER },
+	zReV2_1ECO_fullhelmet1A = 							  { durability=400, repairType=FILTER },
+	zReV2_1ECO_fullhelmet2A = 							  { durability=400, repairType=FILTER },
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
