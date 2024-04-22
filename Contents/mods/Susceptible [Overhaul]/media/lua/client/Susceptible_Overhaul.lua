@@ -102,9 +102,11 @@ Susceptible_Overhaul.getRecharge = function(player,protectionType)
         recharge = inv:getFirstTypeRecurse("GasmaskFilter")
     elseif protectionType == "Wash" then
         recharge = inv:getFirstTypeRecurse("Bleach")
-        local data = recharge:getModData()
-        if not data.useCount then
-            data.useCount = 0
+        if recharge then
+            local data = recharge:getModData()
+            if not data.useCount then
+                data.useCount = 0
+            end
         end
     elseif protectionType == "Cloth" then
         recharge = SusUtil.findAllClothMasks(inv)

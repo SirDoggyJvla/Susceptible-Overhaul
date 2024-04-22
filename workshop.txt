@@ -10,8 +10,8 @@ description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Over
 description=
 description=[table]
 description=[tr]
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2289454303] [img]https://steamuserimages-a.akamaihd.net/ugc/1851539846043147718/4DEADFC6F33E9CA931E5FD37B21E588EEF8AA702/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-description=[td]Hotkeys can be used to equip or unequip gasmask and change filters and oxygen tanks. It is optionnal and requires activation of a secondary mod and the use of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2289454303]Eggon's Hotkeys & Hot Actions[/url].[/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993] [img]https://steamuserimages-a.akamaihd.net/ugc/1917995851086737008/0B87330676C5526DEE21E8ACB4AB176DC8FF7972/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td]When [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]Mod Options[/url] is installed, Hotkeys can be used to equip or unequip protections (gasmask, hazmat etc) and to recharge it. Default keys are respectively M and L.[/td]
 description=[/tr]
 description=[/table]
 description=
@@ -41,6 +41,5 @@ description=
 description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
 description=
 description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_advancement.png[/img][/url]
-description=
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public
