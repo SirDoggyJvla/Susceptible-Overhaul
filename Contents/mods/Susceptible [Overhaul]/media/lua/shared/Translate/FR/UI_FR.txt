@@ -1,4 +1,4 @@
-UI_EN = {
+UI_FR = {
     UI_optionscreen_binding_Susceptible = "Susceptible - Overhaul"
 
     UI_optionscreen_binding_equipSusceptibleProtection = "Equiper/déséquiper le masque",
