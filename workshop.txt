@@ -41,5 +41,6 @@ description=
 description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
 description=
 description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_advancement.png[/img][/url]
+description=
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public

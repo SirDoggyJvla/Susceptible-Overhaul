@@ -16,7 +16,7 @@ Sandbox_FR = {
     Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "La consommation des protections sera basée sur ce facteur. L'épuisement augmente exponentiellement la consommation de durabilité, ce qui signifie que retirer un masque à gaz, ou simplement son filtre en cas d'épuisement, pourrait être important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
 
 	Sandbox_Susceptible_RemoveMaskWhenEating = "Enlève la protection en mangeant",
-	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Le personnage va retirer sa protection avant de manger.",
+	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Le personnage va retirer sa protection avant de manger puis la remettra juste après.",
 
 	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Permet d'équiper son masque en marchant",
 	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Le personnage est capable d'équiper et de retirer son masque en marchant (parce que tu n'es pas complètement abruti).",

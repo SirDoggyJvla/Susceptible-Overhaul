@@ -14,7 +14,7 @@ Sandbox_EN = {
 	Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "Protections will be drained based on this factor. Exhaustion exponentially increases the durability consumption, <LINE>meaning removing a gas mask, or it's filter at a minimum, when exhausted might be important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
 
 	Sandbox_Susceptible_RemoveMaskWhenEating = "Remove protection when eating",
-	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Your character will remove its protection to be able to eat.",
+	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Your character will remove its protection to be able to eat and then equip it back right after.",
 
 	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Allow equipping masks while walking",
 	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Your character is able to equip and remove its mask when walking (because you're not a fucking moron).",
