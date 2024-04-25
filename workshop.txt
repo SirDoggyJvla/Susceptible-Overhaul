@@ -37,6 +37,7 @@ description=[/table]
 description=
 description=[h1]Remarks[/h1]
 description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
+description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/4351116183214529087/]Full list of incompatible mods[/url][/quote]
 description=
 description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
 description=

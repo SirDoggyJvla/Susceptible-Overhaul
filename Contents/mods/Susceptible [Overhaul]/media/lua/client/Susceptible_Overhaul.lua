@@ -29,6 +29,14 @@ local SusceptibleMaskItems = SusceptibleMaskItems
 local SusceptibleRepairTypes = SusceptibleRepairTypes
 local SusceptibleMod = SusceptibleMod
 
+
+Susceptible_Overhaul.OnGameStart = function()
+    local player = getPlayer()
+
+    local modData = player:getModData()
+    modData["Susceptible_Overhaul"] = nil
+end
+
 local priority_mask = {
     ["Oxygen"] = 1,
     ["Filter"] = 2,

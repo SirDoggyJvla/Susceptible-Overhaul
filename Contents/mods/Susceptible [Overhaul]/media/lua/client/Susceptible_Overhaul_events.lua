@@ -20,6 +20,8 @@ require "Susceptible_Overhaul"
 local Susceptible_Overhaul = require "Susceptible_Overhaul_module"
 
 --- Remove the current Susceptible onPlayerUpdate and replace it with my own 
+Events.OnGameStart.Add(Susceptible_Overhaul.OnGameStart)
+
 Events.OnPlayerUpdate.Add(SusceptibleMod.onPlayerUpdate)
 
 Events.EveryOneMinute.Add(Susceptible_Overhaul.DamageProtection)
