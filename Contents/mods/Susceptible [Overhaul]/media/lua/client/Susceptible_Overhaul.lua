@@ -246,11 +246,7 @@ Susceptible_Overhaul.isWearingProtection = function(player)
     end
 
 	-- checks if mask with filter is on, else return false for no gasmask
-	if mask.repairType == SusceptibleRepairTypes.CLOTH
-    or mask.repairType == SusceptibleRepairTypes.WASH
-    or mask.repairType == SusceptibleRepairTypes.FILTER
-    or mask.repairType == SusceptibleRepairTypes.OXYGEN
-    then
+    if priority_mask[mask.repairType] then
 		return true
 	end
 
