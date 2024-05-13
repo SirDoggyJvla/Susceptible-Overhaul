@@ -36,6 +36,7 @@ local mask_data = {
 	-- Brita's Antibelok Hazmats
 	Antibelok =                            	    		{ durability=600, repairType=OXYGEN },
 	Antibelok_ON =                            	    	{ durability=600, repairType=OXYGEN },
+	Chempak_Level =										{ durability=600, repairType=OXYGEN },
 
 --- Gas masks ---
 	-- vanilla Nuclear Biochemical Mask

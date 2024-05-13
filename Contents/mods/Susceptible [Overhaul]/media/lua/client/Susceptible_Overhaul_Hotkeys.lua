@@ -190,7 +190,7 @@ end
 --- Add the keybinds 
 if ModOptions and ModOptions.AddKeyBinding then
     local equipSusceptibleProtection = {
-        key = Keyboard.KEY_M,  --default
+        key = Keyboard.KEY_N,  --default
         name = "equipSusceptibleProtection",  -- just id (user won't see this name)
     }
 
