@@ -1,46 +1,46 @@
 version=1
 id=3204615438
 title=Susceptible [Overhaul]
-description=[h1]What does this mod do ?[/h1]
-description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
-description=
-description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/ui_permanent.png[/img]
-description=[video mp4=https://github.com/SirDoggyJvla/Susceptible-Overhaul/raw/main/images/natural_drain.mp4][/video]
-description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/remove_trait.png[/img]
-description=
-description=[table]
-description=[tr]
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993] [img]https://steamuserimages-a.akamaihd.net/ugc/1917995851086737008/0B87330676C5526DEE21E8ACB4AB176DC8FF7972/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-description=[td]When [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]Mod Options[/url] is installed, Hotkeys can be used to equip or unequip protections (gasmask, hazmat etc) and to recharge it. Default keys are respectively M and L.[/td]
-description=[/tr]
-description=[/table]
-description=
-description=[h1]List of compatible mods[/h1]
-description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_compatibilities.png[/img]
-description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/8059829560012821057/]Full list of compatible mods[/url][/quote]
-description=
-description=[h1]Suggestions[/h1]
-description=[table]
-description=[tr]
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245] [img]https://steamuserimages-a.akamaihd.net/ugc/2262560445663452250/EE2D753190C2A58BB40B3FE08DA0DE33EF7D4C50/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006143351]Cordyceps Spore Zones[/url] from Braven.[/td]
-description=[/tr]
-description=[tr]
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278] [img]https://steamuserimages-a.akamaihd.net/ugc/2430327955924088452/1516133188ECFE730C797B52EE0A863A536468BF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3084326684]Hazardous Zones[/url] by WarHead.[/td]
-description=[/tr]
-description=[tr]
-description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377] [img]https://steamuserimages-a.akamaihd.net/ugc/5819288008762402584/B8E3DF4F1E5DE91D1DE0ADE3169C1F0ACA910AC9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
-description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod[/url] by kERHUS adds a way to remove the Susceptible trait thanks to a vaccin. It also adds great looking gas masks and armored ones against bullets fully compatible with Susceptible thanks to my mod.[/td]
-description=[/tr]
-description=[/table]
-description=
-description=[h1]Remarks[/h1]
-description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
-description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/4351116183214529087/]Full list of incompatible mods[/url][/quote]
-description=
-description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
-description=
-description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_advancement.png[/img][/url]
+description=[h1]What does this mod do ?[/h1]
+description=The goal of this mod is to update [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795677303]Susceptible[/url] from Spyjack by adding new mod compatibility and be used as a framework by other modders to have filters and oxygen tanks be consumed by features they chose to add such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones[/url] via my Overhaul mods.
+description=
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/ui_permanent.png[/img]
+description=[video mp4=https://github.com/SirDoggyJvla/Susceptible-Overhaul/raw/main/images/natural_drain.mp4][/video]
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/remove_trait.png[/img]
+description=
+description=[table]
+description=[tr]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993] [img]https://steamuserimages-a.akamaihd.net/ugc/1917995851086737008/0B87330676C5526DEE21E8ACB4AB176DC8FF7972/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td]When [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993]Mod Options[/url] is installed, Hotkeys can be used to equip or unequip protections (gasmask, hazmat etc) and to recharge it. Default keys are respectively M and L.[/td]
+description=[/tr]
+description=[/table]
+description=
+description=[h1]List of compatible mods[/h1]
+description=[img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_compatibilities.png[/img]
+description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/8059829560012821057/]Full list of compatible mods[/url][/quote]
+description=
+description=[h1]Suggestions[/h1]
+description=[table]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245] [img]https://steamuserimages-a.akamaihd.net/ugc/2262560445663452250/EE2D753190C2A58BB40B3FE08DA0DE33EF7D4C50/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3128144245]Cordyceps Spore Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3006143351]Cordyceps Spore Zones[/url] from Braven.[/td]
+description=[/tr]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278] [img]https://steamuserimages-a.akamaihd.net/ugc/2430327955924088452/1516133188ECFE730C797B52EE0A863A536468BF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3196616278]Hazardous Zones - Overhaul[/url] uses this framework. Adds the durability features to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3084326684]Hazardous Zones[/url] by WarHead.[/td]
+description=[/tr]
+description=[tr]
+description=[td] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377] [img]https://steamuserimages-a.akamaihd.net/ugc/5819288008762402584/B8E3DF4F1E5DE91D1DE0ADE3169C1F0ACA910AC9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false[/img] [/url] [/td]
+description=[td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3215662377]zRe Vaccine 2.0 ReMod[/url] by kERHUS adds a way to remove the Susceptible trait thanks to a vaccin. It also adds great looking gas masks and armored ones against bullets fully compatible with Susceptible thanks to my mod.[/td]
+description=[/tr]
+description=[/table]
+description=
+description=[h1]Remarks[/h1]
+description=If you have any suggestions, or mods that need their compatibility added (masks, hazmats etc), feel free to share those and I'll look into it.
+description=[quote][url=https://steamcommunity.com/workshop/filedetails/discussion/3204615438/4351116183214529087/]Full list of incompatible mods[/url][/quote]
+description=
+description=[url=https://ko-fi.com/sirdoggyjvla][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner3.png[/img][/url]
+description=
+description=[url=https://trello.com/b/afsvTryV/susceptible-overhaul][img]https://raw.githubusercontent.com/SirDoggyJvla/Susceptible-Overhaul/main/images/mod_advancement.png[/img][/url]
 tags=Build 41;Balance;Clothing/Armor;Framework;Hardmode;Interface;Items;Misc;Realistic;Traits
 visibility=public

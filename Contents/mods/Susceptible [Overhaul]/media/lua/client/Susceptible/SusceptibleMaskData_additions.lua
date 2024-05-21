@@ -53,6 +53,11 @@ local mask_data = {
 	zReV2_1ECO_fullhelmet2A = 							{ durability=400, repairType=FILTER },
 	-- New Horizon Uniforms
 	NH_Hazmat_Hood = 									{ durability=400, repairType=FILTER },
+	-- Post-Soviet Clothing
+	Mask_GP5 =		 									{ durability=400, repairType=FILTER },
+	Mask_GP5M =		 									{ durability=400, repairType=FILTER },
+	Mask_GP7 =		 									{ durability=400, repairType=FILTER },
+	Mask_PMK =		 									{ durability=400, repairType=FILTER },
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
@@ -60,10 +65,14 @@ local mask_data = {
 	["Military_FullHelmet_Vanguard-Desert"] =           { durability=350, repairType=CLOTH },
 	["Military_FullHelmet_Vanguard-Green"] =            { durability=350, repairType=CLOTH },
 	["Military_FullHelmet_Vanguard-White"] =            { durability=350, repairType=CLOTH },
-
 	-- CRM armor pack
 	CRM_Helmet = 										{ durability=350, repairType=CLOTH },
 	CRM_Helmet2 = 										{ durability=350, repairType=CLOTH },
+	-- zRe Apo Modern Armor
+	zRe_Apo_HelmetClose_Black =							{ durability=350, repairType=CLOTH },
+	zRe_Apo_HelmetClose_Green =							{ durability=350, repairType=CLOTH },
+	zRe_Apo_HelmetClose_Desert =						{ durability=350, repairType=CLOTH },
+	zRe_Apo_HelmetClose_White =							{ durability=350, repairType=CLOTH },
 
 --- Unique Mod masks ---
 	-- Buffing Undead Survivor Gas Masks.
@@ -76,11 +85,17 @@ local mask_data = {
 	DeadlyHeadhunterGasmask =                           { durability=400, repairType=FILTER },
 
 --- Surgical, dust and face masks ---
+	-- Post-Soviet Clothing
+	Hat_FaceMask =										{ durability=120, repairType=WASH },
 
 --- Basic face covering helmets/headgear --- 
+	-- zRe Armor Pack
 	zRe_Hat_Altyn_Black =             					{ durability=90 },
 	zRe_Hat_Altyn_Green =             					{ durability=90 },
 	zRe_Hat_Altyn_Olive =             					{ durability=90 },
+	-- Post-Soviet Clothing
+	Hat_Altyn =											{ durability=90 },
+	Hat_Vityaz =										{ durability=90 },
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
@@ -101,6 +116,7 @@ local mask_data = {
 	-- New Horizon Uniforms
 	NH_Mask =											{ durability=26, repairType=WASH },
 	NH_Balaclava =										{ durability=26, repairType=WASH },
+	Balaclava_OneHole =									{ durability=26, repairType=WASH },
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
