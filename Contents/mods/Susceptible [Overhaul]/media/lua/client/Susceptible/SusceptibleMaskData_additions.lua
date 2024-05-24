@@ -58,6 +58,11 @@ local mask_data = {
 	Mask_GP5M =		 									{ durability=400, repairType=FILTER },
 	Mask_GP7 =		 									{ durability=400, repairType=FILTER },
 	Mask_PMK =		 									{ durability=400, repairType=FILTER },
+	-- zRe Apo Modern Armor
+	zRe_Apo_HelmetClose_Black =							{ durability=400, repairType=FILTER },
+	zRe_Apo_HelmetClose_Green =							{ durability=400, repairType=FILTER },
+	zRe_Apo_HelmetClose_Desert =						{ durability=400, repairType=FILTER },
+	zRe_Apo_HelmetClose_White =							{ durability=400, repairType=FILTER },
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
@@ -68,11 +73,6 @@ local mask_data = {
 	-- CRM armor pack
 	CRM_Helmet = 										{ durability=350, repairType=CLOTH },
 	CRM_Helmet2 = 										{ durability=350, repairType=CLOTH },
-	-- zRe Apo Modern Armor
-	zRe_Apo_HelmetClose_Black =							{ durability=350, repairType=CLOTH },
-	zRe_Apo_HelmetClose_Green =							{ durability=350, repairType=CLOTH },
-	zRe_Apo_HelmetClose_Desert =						{ durability=350, repairType=CLOTH },
-	zRe_Apo_HelmetClose_White =							{ durability=350, repairType=CLOTH },
 
 --- Unique Mod masks ---
 	-- Buffing Undead Survivor Gas Masks.
