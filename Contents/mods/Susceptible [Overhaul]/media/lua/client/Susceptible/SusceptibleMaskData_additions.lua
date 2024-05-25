@@ -63,6 +63,8 @@ local mask_data = {
 	zRe_Apo_HelmetClose_Green =							{ durability=400, repairType=FILTER },
 	zRe_Apo_HelmetClose_Desert =						{ durability=400, repairType=FILTER },
 	zRe_Apo_HelmetClose_White =							{ durability=400, repairType=FILTER },
+	-- OCP Gear
+	["OCP-GasMask"] = 									{ durability=400, repairType=FILTER },
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
