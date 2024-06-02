@@ -146,7 +146,7 @@ local function OnGameStart()
         end
     end
 
-    if SandboxVars.Susceptible.RealisticMode then
+    if SandboxVars.Susceptible.NaturalDrain then
         DebugLog.log("Susceptible_Overhaul: Overwriting SusceptibleMod.onPlayerGasMaskDrain")
 
         function SusceptibleMod.onPlayerGasMaskDrain(player)

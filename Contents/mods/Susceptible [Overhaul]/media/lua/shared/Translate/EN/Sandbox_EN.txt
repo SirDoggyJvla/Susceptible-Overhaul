@@ -4,11 +4,23 @@ Sandbox_EN = {
 	Sandbox_Susceptible_FailIfHoles = "Hazmat fails if holes",
 	Sandbox_Susceptible_FailIfHoles_tooltip = "Hazmat types of protections will not protect if there are holes in it.",
 
-	Sandbox_Susceptible_RealisticMode = "Natural drain",
-	Sandbox_Susceptible_RealisticMode_tooltip = "Protections will be drained even when out of danger.",
-
 	Sandbox_Susceptible_HardBreathing = "Hard breathing",
-	Sandbox_Susceptible_HardBreathing_tooltip = "Protections will make it harder to breath, causing the character to get exhausted faster. <LINES>Protection type affects the exhaustion in the following order from easier to breath to hardest: <INDENT:20> <LINE> - Cloth masks <LINE> - Filter <LINE> - Oxygen <LINE> <INDENT:0> ",
+	Sandbox_Susceptible_HardBreathing_tooltip = "Protections will make it harder to breath, causing the character to get exhausted faster. <LINES>Your protection type affects the exhaustion. Naturally you can regain more stamina than you lose but the lower your fitness level is, the faster you get exhausted. Running will also exhaust you faster so walking is less likely to completely exhaust you.<LINE> It is highly suggested to remove your mask whenever you don't need to wear it or after losing a lot of stamina to regain it faster.",
+
+	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Oxygen",
+	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much oxygen based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+
+	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Filters",
+	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much filter based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+
+	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Cloth",
+	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much clothing based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+
+	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Washable",
+	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much washable based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+
+	Sandbox_Susceptible_NaturalDrain = "Natural drain",
+	Sandbox_Susceptible_NaturalDrain_tooltip = "Protections will be drained even when out of danger.",
 
 	Sandbox_Susceptible_TimeForNaturalDrain = "Time for natural drain",
 	Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "Protections will be drained based on this factor. Exhaustion exponentially increases the durability consumption, <LINE>meaning removing a gas mask, or it's filter at a minimum, when exhausted might be important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",

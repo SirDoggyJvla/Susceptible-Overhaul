@@ -3,21 +3,21 @@
 Sandbox_FR = {
     Sandbox_SusceptibleOverhaul = "Susceptible [Overhaul]",
 
-    Sandbox_Susceptible_FailIfHoles = "Échec du matériel hazmat en cas de trous",
-    Sandbox_Susceptible_FailIfHoles_tooltip = "Les équipements de protection hazmat ne protégeront pas s'il y a des trous.",
+    Sandbox_Susceptible_FailIfHoles = "ï¿½chec du matï¿½riel hazmat en cas de trous",
+    Sandbox_Susceptible_FailIfHoles_tooltip = "Les ï¿½quipements de protection hazmat ne protï¿½geront pas s'il y a des trous.",
 
-    Sandbox_Susceptible_RealisticMode = "Drainage naturel",
-    Sandbox_Susceptible_RealisticMode_tooltip = "Les protections seront consommées même lorsque vous êtes hors danger.",
+    Sandbox_Susceptible_NaturalDrain = "Drainage naturel",
+    Sandbox_Susceptible_NaturalDrain_tooltip = "Les protections seront consommï¿½es mï¿½me lorsque vous ï¿½tes hors danger.",
 
 	Sandbox_Susceptible_HardBreathing = "Respiration difficile",
-    Sandbox_Susceptible_HardBreathing_tooltip = "Les protections rendent la respiration plus difficile, épuisant le personnage plus rapidement. <LINES>Le type de protection affecte plus ou moins la respiration, dans l'ordre suivant en partant du plus facile pour respirer au plus difficile: <INDENT:20> <LINE> - Masques en papier/tissue <LINE> - Filtres <LINE> - Oxygène <LINE> <INDENT:0> ",
+    Sandbox_Susceptible_HardBreathing_tooltip = "Les protections rendent la respiration plus difficile, ï¿½puisant le personnage plus rapidement. <LINES>Le type de protection affecte plus ou moins la respiration, dans l'ordre suivant en partant du plus facile pour respirer au plus difficile: <INDENT:20> <LINE> - Masques en papier/tissue <LINE> - Filtres <LINE> - Oxygï¿½ne <LINE> <INDENT:0> ",
 
     Sandbox_Susceptible_TimeForNaturalDrain = "Temps pour drainage naturel",
-    Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "La consommation des protections sera basée sur ce facteur. L'épuisement augmente exponentiellement la consommation de durabilité, ce qui signifie que retirer un masque à gaz, ou simplement son filtre en cas d'épuisement, pourrait être important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
+    Sandbox_Susceptible_TimeForNaturalDrain_tooltip = "La consommation des protections sera basï¿½e sur ce facteur. L'ï¿½puisement augmente exponentiellement la consommation de durabilitï¿½, ce qui signifie que retirer un masque ï¿½ gaz, ou simplement son filtre en cas d'ï¿½puisement, pourrait ï¿½tre important. <BR> <IMAGECENTRE:media/ui/Realistic_mode_data.png>",
 
-	Sandbox_Susceptible_RemoveMaskWhenEating = "Enlève la protection en mangeant",
-	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Le personnage va retirer sa protection avant de manger puis la remettra juste après.",
+	Sandbox_Susceptible_RemoveMaskWhenEating = "Enlï¿½ve la protection en mangeant",
+	Sandbox_Susceptible_RemoveMaskWhenEating_tooltip = "Le personnage va retirer sa protection avant de manger puis la remettra juste aprï¿½s.",
 
-	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Permet d'équiper son masque en marchant",
-	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Le personnage est capable d'équiper et de retirer son masque en marchant (parce que tu n'es pas complètement abruti).",
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk = "Permet d'ï¿½quiper son masque en marchant",
+	Sandbox_Susceptible_AllowMaskRemovalDuringWalk_tooltip = "Le personnage est capable d'ï¿½quiper et de retirer son masque en marchant (parce que tu n'es pas complï¿½tement abruti).",
 }

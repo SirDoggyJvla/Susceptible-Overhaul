@@ -7,18 +7,50 @@ option Susceptible.FailIfHoles
 	translation = Susceptible_FailIfHoles,
 }
 
-option Susceptible.RealisticMode
-{
-	type = boolean, default = true,
-	page = SusceptibleOverhaul,
-	translation = Susceptible_RealisticMode,
-}
-
 option Susceptible.HardBreathing
 {
 	type = boolean, default = true,
 	page = SusceptibleOverhaul,
 	translation = Susceptible_HardBreathing,
+}
+
+option Susceptible.HardBreathing_oxygen
+{
+    type = double,
+    min = 0.00, default = 0.50, max = 3.00,
+    page = SusceptibleOverhaul,
+    translation = Susceptible_HardBreathing_oxygen,
+}
+
+option Susceptible.HardBreathing_filter
+{
+    type = double,
+    min = 0.00, default = 1.10, max = 3.00,
+    page = SusceptibleOverhaul,
+    translation = Susceptible_HardBreathing_filter,
+}
+
+option Susceptible.HardBreathing_cloth
+{
+    type = double,
+    min = 0.00, default = 0.80, max = 3.00,
+    page = SusceptibleOverhaul,
+    translation = Susceptible_HardBreathing_cloth,
+}
+
+option Susceptible.HardBreathing_wash
+{
+    type = double,
+    min = 0.00, default = 0.50, max = 3.00,
+    page = SusceptibleOverhaul,
+    translation = Susceptible_HardBreathing_wash,
+}
+
+option Susceptible.NaturalDrain
+{
+	type = boolean, default = true,
+	page = SusceptibleOverhaul,
+	translation = Susceptible_NaturalDrain,
 }
 
 option Susceptible.TimeForNaturalDrain

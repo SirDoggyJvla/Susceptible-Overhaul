@@ -21,6 +21,9 @@ local FILTER = "Filter";
 local WASH = "Wash";
 local OXYGEN = "Oxygen";
 
+-- quality defaults to infinite
+-- repairType defaults to CLOTH
+
 -- Function to merge two dictionaries
 local function mergeTables(dest, src)
     for key, value in pairs(src) do
@@ -62,6 +65,9 @@ local mask_data = {
 	zRe_Apo_HelmetClose_White =							{ durability=400, 		repairType=FILTER 	},
 	-- OCP Gear
 	["OCP-GasMask"] =									{ durability=400, 		repairType=FILTER 	},
+	-- zRe SWAT ARMOR ny kERHUS
+	zReSWAT_Hat_GasMask =								{ durability=400, 		repairType=FILTER 	},
+	zReSWAT_Hat_GasMask_NoBelts =						{ durability=400, 		repairType=FILTER 	},
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
@@ -82,6 +88,15 @@ local mask_data = {
 	StalkerMask =										{ durability=400, 		repairType=FILTER 	},
 	HeadhunterGasmask  =								{ durability=400, 		repairType=FILTER 	},
 	DeadlyHeadhunterGasmask =							{ durability=400, 		repairType=FILTER 	},
+	-- Buffing rebreather from Scrap Armor to 400 durability
+	Hat_Rebreather =									{ durability=400,		repairType=FILTER	},
+	-- I haven't searched which mods add those, but they are marked as respirators
+	-- so I bet they deserve 400 durability like other gasmasks and respirators
+	Hat_HalfMaskRespirator_Black =						{ durability=400,		repairType=FILTER	},
+	Hat_HalfMaskRespirator_White =						{ durability=400,		repairType=FILTER	},
+	Hat_HalfMaskRespiratorII_Black =					{ durability=400,		repairType=FILTER	},
+	Hat_HalfMaskRespiratorII_White =					{ durability=400,		repairType=FILTER	},
+	chiGasMask =										{ durability=400,		repairType=FILTER	},
 
 --- Surgical, dust and face masks ---
 	-- Post-Soviet Clothing
@@ -116,6 +131,8 @@ local mask_data = {
 	NH_Mask =											{ durability=26, 		repairType=WASH 	},
 	NH_Balaclava =										{ durability=26, 		repairType=WASH 	},
 	Balaclava_OneHole =									{ durability=26, 		repairType=WASH 	},
+	-- zRe SWAT ARMOR ny kERHUS
+	zReSWAT_BalaclavaFace =								{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)

@@ -29,12 +29,25 @@ local SusceptibleMaskItems = SusceptibleMaskItems
 local SusceptibleRepairTypes = SusceptibleRepairTypes
 local SusceptibleMod = SusceptibleMod
 
+local multiplier_mask = {
+    ["Oxygen"] = 0.5,
+    ["Filter"] = 1.1,
+	["Cloth"] = 0.8,
+	["Wash"] = 0.5,
+}
 
 Susceptible_Overhaul.OnGameStart = function()
     local player = getPlayer()
 
     local modData = player:getModData()
     modData["Susceptible_Overhaul"] = nil
+
+    multiplier_mask = {
+        ["Oxygen"] = SandboxVars.Susceptible.HardBreathing_oxygen,
+        ["Filter"] = SandboxVars.Susceptible.HardBreathing_filter,
+        ["Cloth"] = SandboxVars.Susceptible.HardBreathing_cloth,
+        ["Wash"] = SandboxVars.Susceptible.HardBreathing_wash,
+    }
 end
 
 local priority_mask = {
@@ -299,13 +312,6 @@ Susceptible_Overhaul.DamageProtection = function()
     end
 end
 
-local multiplier_mask = {
-    ["Oxygen"] = 0.5,
-    ["Filter"] = 1.1,
-	["Cloth"] = 0.8,
-	["Wash"] = 0.5,
-}
-
 --- OnPlayerUpdate do:
 ---
 --- - Exhaust player if he's wearing a mask
@@ -319,6 +325,9 @@ Susceptible_Overhaul.OnPlayerUpdate = function(player)
 
     -- get mask multi
     local multi_mask = multiplier_mask[mask.repairType] or 1
+
+    -- skip as multi_mask == 0 means no exert at the end
+    if multi_mask == 0 then return end
 
     -- base penalization
     local penalization = 0.001
