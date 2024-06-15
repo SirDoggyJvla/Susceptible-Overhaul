@@ -15,7 +15,7 @@ This file defines the addition of new compatible mods to masks and shit.
 -- load SusceptibleMaskItems first
 require "Susceptible/SusceptibleMaskData"
 
-local NONE = "None"; --wtf is even the point of that one lol
+-- define protection types
 local CLOTH = "Cloth";
 local FILTER = "Filter";
 local WASH = "Wash";
@@ -110,6 +110,19 @@ local mask_data = {
 	-- Post-Soviet Clothing
 	Hat_Altyn =											{ durability=90 							},
 	Hat_Vityaz =										{ durability=90 							},
+	-- Ballistic Mask Pack
+	DM_Smile_Yellow  =									{ durability=90 							},
+	DM_Smile_Green  =									{ durability=90 							},
+	DM_Smile_Orange  =									{ durability=90 							},
+	DM_Camo_Grey  =										{ durability=90 							},
+	DM_Camo_Black  =									{ durability=90 							},
+	DM_Deserted  =										{ durability=90 							},
+	DM_Killer  =										{ durability=90 							},
+	DM_Hearted  =										{ durability=90 							},
+	DM_Flames  =										{ durability=90 							},
+	DM_Panda  =											{ durability=90 							},
+	DM_Panda_Cross  =									{ durability=90 							},
+
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
