@@ -78,6 +78,9 @@ local mask_data = {
 	-- CRM armor pack
 	CRM_Helmet =										{ durability=350, 		repairType=CLOTH 	},
 	CRM_Helmet2 =										{ durability=350, 		repairType=CLOTH 	},
+	-- Militek Faction Clothing
+	["Military_FullHelmet_Vanguard-Militek"] =			{ durability=350, 		repairType=CLOTH 	},
+	["Military_FullHelmet_Vanguard-MilitekOfficer"] =	{ durability=350, 		repairType=CLOTH 	},
 
 --- Unique Mod masks ---
 	-- Buffing Undead Survivor Gas Masks.
