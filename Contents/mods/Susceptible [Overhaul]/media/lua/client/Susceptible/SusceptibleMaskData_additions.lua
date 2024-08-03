@@ -125,7 +125,9 @@ local mask_data = {
 	DM_Flames  =										{ durability=90 							},
 	DM_Panda  =											{ durability=90 							},
 	DM_Panda_Cross  =									{ durability=90 							},
-
+	-- Cerberus Pack
+	MaskFull_BallisticMask_Cerberus  =					{ durability=90 							},
+	MaskFull_BallisticMask_Cerberus_NoBelts  =			{ durability=90 							},
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
@@ -147,8 +149,12 @@ local mask_data = {
 	NH_Mask =											{ durability=26, 		repairType=WASH 	},
 	NH_Balaclava =										{ durability=26, 		repairType=WASH 	},
 	Balaclava_OneHole =									{ durability=26, 		repairType=WASH 	},
-	-- zRe SWAT ARMOR ny kERHUS
+	-- zRe SWAT ARMOR by kERHUS
 	zReSWAT_BalaclavaFace =								{ durability=26, 		repairType=WASH 	},
+	-- Cerberus Pack
+	Mask_Balaclava_Cerberus =							{ durability=26, 		repairType=WASH 	},
+	Mask_BandanaMask_Cerberus =							{ durability=26, 		repairType=WASH 	},
+	Helmet_Mandible_Cerberus =							{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
