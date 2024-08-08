@@ -9,7 +9,7 @@ option Susceptible.FailIfHoles
 
 option Susceptible.HardBreathing
 {
-	type = boolean, default = true,
+	type = boolean, default = false,
 	page = SusceptibleOverhaul,
 	translation = Susceptible_HardBreathing,
 }
@@ -48,7 +48,7 @@ option Susceptible.HardBreathing_wash
 
 option Susceptible.NaturalDrain
 {
-	type = boolean, default = true,
+	type = boolean, default = false,
 	page = SusceptibleOverhaul,
 	translation = Susceptible_NaturalDrain,
 }

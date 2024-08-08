@@ -15,11 +15,18 @@ This file defines the addition of new compatible mods to masks and shit.
 -- load SusceptibleMaskItems first
 require "Susceptible/SusceptibleMaskData"
 
+-- yea had to fix his shit manually
+if getActivatedMods():contains("Susceptible") then
+	require "SusceptibleNewHorizon"
+	SusceptibleMaskItems["NH_Hazmat_Hood"] = nil
+end
+
 -- define protection types
 local CLOTH = "Cloth";
 local FILTER = "Filter";
 local WASH = "Wash";
 local OXYGEN = "Oxygen";
+
 
 -- quality defaults to infinite
 -- repairType defaults to CLOTH
@@ -68,6 +75,8 @@ local mask_data = {
 	-- zRe SWAT ARMOR ny kERHUS
 	zReSWAT_Hat_GasMask =								{ durability=400, 		repairType=FILTER 	},
 	zReSWAT_Hat_GasMask_NoBelts =						{ durability=400, 		repairType=FILTER 	},
+	-- darlak's The Jin_Roh
+	Jin_Roh_Mask =										{ durability=400, 		repairType=FILTER 	},
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack

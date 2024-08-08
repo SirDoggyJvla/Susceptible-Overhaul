@@ -10,14 +10,14 @@ Sandbox_EN = {
 	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Oxygen",
 	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much oxygen based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
 
-	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Filters",
-	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much filter based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+	Sandbox_Susceptible_HardBreathing_filter = "Hard breathing mask type: Filters",
+	Sandbox_Susceptible_HardBreathing_filter_tooltip = "Chose a coefficient to decide how much filter based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
 
-	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Cloth",
-	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much clothing based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+	Sandbox_Susceptible_HardBreathing_cloth = "Hard breathing mask type: Cloth",
+	Sandbox_Susceptible_HardBreathing_cloth_tooltip = "Chose a coefficient to decide how much clothing based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
 
-	Sandbox_Susceptible_HardBreathing_oxygen = "Hard breathing mask type: Washable",
-	Sandbox_Susceptible_HardBreathing_oxygen_tooltip = "Chose a coefficient to decide how much washable based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
+	Sandbox_Susceptible_HardBreathing_wash = "Hard breathing mask type: Washable",
+	Sandbox_Susceptible_HardBreathing_wash_tooltip = "Chose a coefficient to decide how much washable based protections will make it hard for your character to breath through. <BR> The higher the coefficient, the more you get exhausted from wearing the mask. A coefficient equal to 0 means it is deactivated for this type of masks.",
 
 	Sandbox_Susceptible_NaturalDrain = "Natural drain",
 	Sandbox_Susceptible_NaturalDrain_tooltip = "Protections will be drained even when out of danger.",
