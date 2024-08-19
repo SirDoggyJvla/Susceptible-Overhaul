@@ -137,6 +137,11 @@ local mask_data = {
 	-- Cerberus Pack
 	MaskFull_BallisticMask_Cerberus  =					{ durability=90 							},
 	MaskFull_BallisticMask_Cerberus_NoBelts  =			{ durability=90 							},
+	-- Lynx Pack
+	Helmet_BallisticFaceShield_Lynx_DOWN  =				{ durability=90 							},
+	["Helmet_RysT_Lynx_DOWN-Black"]  =					{ durability=90 							},
+	["Helmet_RysT_Lynx_DOWN-Green"]  =					{ durability=90 							},
+
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
@@ -164,6 +169,9 @@ local mask_data = {
 	Mask_Balaclava_Cerberus =							{ durability=26, 		repairType=WASH 	},
 	Mask_BandanaMask_Cerberus =							{ durability=26, 		repairType=WASH 	},
 	Helmet_Mandible_Cerberus =							{ durability=26, 		repairType=WASH 	},
+	-- Lynx Pack
+	Mask_Balaclava_Lynx =								{ durability=26, 		repairType=WASH 	},
+	Mask_BandanaMask_Lynx =								{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
