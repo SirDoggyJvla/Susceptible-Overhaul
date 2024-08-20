@@ -77,6 +77,8 @@ local mask_data = {
 	zReSWAT_Hat_GasMask_NoBelts =						{ durability=400, 		repairType=FILTER 	},
 	-- darlak's The Jin_Roh
 	Jin_Roh_Mask =										{ durability=400, 		repairType=FILTER 	},
+	-- [J&G] Forest Multicam Uniform
+	["Forest_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
@@ -172,6 +174,8 @@ local mask_data = {
 	-- Lynx Pack
 	Mask_Balaclava_Lynx =								{ durability=26, 		repairType=WASH 	},
 	Mask_BandanaMask_Lynx =								{ durability=26, 		repairType=WASH 	},
+	-- Lynx Pack
+	Forest_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
