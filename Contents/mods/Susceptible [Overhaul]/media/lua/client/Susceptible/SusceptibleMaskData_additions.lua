@@ -38,6 +38,7 @@ local function mergeTables(dest, src)
     end
 end
 
+-- new added data
 local mask_data = {
 --- Hazmat Suits ---
 	-- Brita's Antibelok Hazmats
@@ -81,6 +82,10 @@ local mask_data = {
 	["Forest_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
 	-- [J&G] Black Multicam Uniform
 	["Black_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
+	-- [J&G] Alpine Uniform
+	["Alpine_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
+	-- [J&G] Desert Uniform
+	["Desert_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
 
 --- Enclosed Military Helmets ---  
 	-- KATTAJ1 Military Pack
@@ -180,6 +185,10 @@ local mask_data = {
 	Forest_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
 	-- [J&G] Black Multicam Uniform
 	Black_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
+	-- [J&G] Alpine Uniform
+	Alpine_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
+	-- [J&G] Desert Uniform
+	Desert_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
