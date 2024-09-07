@@ -1,4 +1,3 @@
-
 --[[ ================================================ ]]--
 --[[  /~~\'      |~~\                  ~~|~    |      ]]--
 --[[  '--.||/~\  |   |/~\/~~|/~~|\  /    | \  /|/~~|  ]]--
@@ -86,8 +85,11 @@ local mask_data = {
 	["Alpine_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
 	-- [J&G] Desert Uniform
 	["Desert_Camo_GasMask-M80"] =						{ durability=400, 		repairType=FILTER 	},
+	-- Manhunt Clothing Pack
+	Cerber_Helmet1 =									{ durability=400, 		repairType=FILTER 	},
+	Cerber_Led_Helmet =									{ durability=400, 		repairType=FILTER 	},
 
---- Enclosed Military Helmets ---  
+--- Enclosed Military Helmets
 	-- KATTAJ1 Military Pack
 	["Military_FullHelmet_Vanguard-Black"] =			{ durability=350, 		repairType=CLOTH 	},
 	["Military_FullHelmet_Vanguard-Desert"] =			{ durability=350, 		repairType=CLOTH 	},
@@ -150,7 +152,24 @@ local mask_data = {
 	Helmet_BallisticFaceShield_Lynx_DOWN  =				{ durability=90 							},
 	["Helmet_RysT_Lynx_DOWN-Black"]  =					{ durability=90 							},
 	["Helmet_RysT_Lynx_DOWN-Green"]  =					{ durability=90 							},
-
+	-- Gangs+
+	AC_AcidMask01  =									{ durability=90 							},
+	AC_SkullMask01  =									{ durability=90 							},
+	AC_SkullMask02  =									{ durability=90 							},
+	Hat_HockeyMask  =									{ durability=90 							},
+	HelmetPsycho =										{ durability=90 							},
+	Hat_CrashHelmetFULL =								{ durability=90 							},
+	-- Manhunt Clothing Pack
+	Bunny_Mask  =										{ durability=90 							},
+	Innocent_Mask  =									{ durability=90 							},
+	Innocent_Mask2  =									{ durability=90 							},
+	Monkey_Mask  =										{ durability=90 							},
+	Piggsy_Mask  =										{ durability=90 							},
+	Skin_Mask01  =										{ durability=90 							},
+	Skin_Mask02  =										{ durability=90 							},
+	Smiley_Mask  =										{ durability=90 							},
+	Smiley_Mask2  =										{ durability=90 							},
+	SWAT_Helmet =										{ durability=90 							},
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
@@ -189,6 +208,14 @@ local mask_data = {
 	Alpine_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
 	-- [J&G] Desert Uniform
 	Desert_Camo_Balaclava =								{ durability=26, 		repairType=WASH 	},
+	-- Gangs+
+	Hat_SkullBalaclavaFull =							{ durability=26, 		repairType=WASH 	},
+	Hat_TacticalBalaclavaFull =							{ durability=26, 		repairType=WASH 	},
+	-- Manhunt Clothing Pack
+	Hoods_Balaclava =									{ durability=26, 		repairType=WASH 	},
+	Hoods_Hat =											{ durability=26, 		repairType=WASH 	},
+	Wardogs_Balaclava =									{ durability=26, 		repairType=WASH 	},
+	Wardogs_Bandana =									{ durability=26, 		repairType=WASH 	},
 }
 
 mergeTables(SusceptibleMaskItems,mask_data)
