@@ -88,6 +88,8 @@ local mask_data = {
 	-- Manhunt Clothing Pack
 	Cerber_Helmet1 =									{ durability=400, 		repairType=FILTER 	},
 	Cerber_Led_Helmet =									{ durability=400, 		repairType=FILTER 	},
+	-- The Last of Us: Factions & Gear
+	Hat_FedraGasMask =									{ durability=400, 		repairType=FILTER 	},
 
 --- Enclosed Military Helmets
 	-- KATTAJ1 Military Pack
@@ -101,6 +103,8 @@ local mask_data = {
 	-- Militek Faction Clothing
 	["Military_FullHelmet_Vanguard-Militek"] =			{ durability=350, 		repairType=CLOTH 	},
 	["Military_FullHelmet_Vanguard-MilitekOfficer"] =	{ durability=350, 		repairType=CLOTH 	},
+	-- B-27 Fortified Commando Armor
+	B27ArmorHelmet =									{ durability=350,		repairType=CLOTH	},
 
 --- Unique Mod masks ---
 	-- Buffing Undead Survivor Gas Masks.
@@ -170,6 +174,8 @@ local mask_data = {
 	Smiley_Mask  =										{ durability=90 							},
 	Smiley_Mask2  =										{ durability=90 							},
 	SWAT_Helmet =										{ durability=90 							},
+	-- The Last of Us: Factions & Gear
+	Hat_FedraHelmet_Closed =							{ durability=90, 						 	},
 
 --- Bandanas & cloth masks ---
 	-- KATTAJ1 Military Pack
