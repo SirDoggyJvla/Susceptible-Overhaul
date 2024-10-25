@@ -13,6 +13,7 @@ This file defines the patches to functions of Susceptible by the mod Susceptible
 
 --- Import modules
 local SusUtil = require "Susceptible/SusceptibleUtil"
+require "Susceptible/SusceptibleTrait"
 require "Susceptible/SusceptibleMaskData_additions"
 
 -- localy import data
@@ -20,6 +21,64 @@ local SusceptibleMaskItems = SusceptibleMaskItems
 local SusceptibleRepairTypes = SusceptibleRepairTypes
 
 Events.OnPlayerUpdate.Remove(SusceptibleMod.onPlayerUpdate)
+
+if getActivatedMods():contains("Bandits") then
+
+    print("PATCHING SusceptibleMod.zombieIsValid")
+
+    local zombieIsValid_original = SusceptibleMod.zombieIsValid
+    function SusceptibleMod.zombieIsValid(player, zombie, distance, playerIsOutside)
+        local brain = BanditBrain.Get(zombie)
+        if zombie:getVariableBoolean("Bandit") or brain then
+            return false
+        end
+        local gmd = GetBanditModData()
+        if gmd.Queue[BanditUtils.GetCharacterID(zombie)] then
+            return false
+        end
+
+        return zombieIsValid_original(player, zombie, distance, playerIsOutside)
+    end
+
+    function SusceptibleMod.calculateThreat(player)
+        local infectionDistance = SusceptibleMod.calculateInfectionDistance(player);
+        local isOutside = player:isOutside();
+    
+        local threatLevel = 0;
+        local paranoiaLevel = 0;
+    
+        local multiplier = 1;
+        if player:getVehicle() then
+            multiplier = SusceptibleMod.calculateVehicleInfectionMultiplier(player, player:getVehicle());
+        end
+        
+        if multiplier == 0 then
+            return 0, 0;
+        end
+    
+        local zeds = getCell():getZombieList();
+        if zeds:size() > 0 then
+            for i = 0, zeds:size() - 1 do
+                local zombie = zeds:get(i);
+                local distance = player:DistTo(zombie);
+                if distance <= infectionDistance then
+                    if SusceptibleMod.zombieIsValid(player, zombie, distance, isOutside) then
+                        if distance < 1 then
+                            threatLevel = threatLevel + 2;
+                        else
+                            threatLevel = threatLevel + (2 / (0.75 + distance * 0.25));
+                        end
+                    end
+                end
+            end
+        end
+    
+        return threatLevel * multiplier, paranoiaLevel * multiplier;
+    end
+
+end
+
+
 
 --- Modify `SusceptibleMod.onPlayerUpdate` with my own.
 --- Add UI to player even if not Susceptible.
